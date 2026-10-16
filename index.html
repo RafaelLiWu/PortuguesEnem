@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Português · ENEM</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F3F6FA;--cd:#fff;--tx:#14213D;--mu:#5B6785;--ac:#C9385B;--am:#FFB400;--hi:#FBE6EC;--ht:#8E2340;--ln:#DAE2EF;--gl:#E3EAF4;--A:#D12D20;--M:#A85A00;--B:#4A6283;--ok:#12803C;--er:#D12D20;--lm:44%;--bt:#fff;--hd:rgba(243,246,250,.88);--sh:0 3px 0 var(--ln);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0B111C;--cd:#131B2A;--tx:#E6ECF8;--mu:#9AA7C2;--ac:#FF7A98;--am:#FFC83D;--hi:#3A1A29;--ht:#FFC7D5;--ln:#243049;--gl:#121A29;--A:#FF7A6B;--M:#F5B041;--B:#9DB0C3;--ok:#4ADE80;--er:#F87171;--lm:62%;--bt:#0B111C;--hd:rgba(11,17,28,.88)}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0B111C;--cd:#131B2A;--tx:#E6ECF8;--mu:#9AA7C2;--ac:#FF7A98;--am:#FFC83D;--hi:#3A1A29;--ht:#FFC7D5;--ln:#243049;--gl:#121A29;--A:#FF7A6B;--M:#F5B041;--B:#9DB0C3;--ok:#4ADE80;--er:#F87171;--lm:62%;--bt:#0B111C;--hd:rgba(11,17,28,.88)}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg) linear-gradient(var(--gl) 1px,transparent 1px) 0 0/30px 30px;background-image:linear-gradient(var(--gl) 1px,transparent 1px),linear-gradient(90deg,var(--gl) 1px,transparent 1px);background-size:30px 30px;color:var(--tx);font:15px/1.6 Figtree,system-ui,sans-serif;padding-bottom:96px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--hd);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);z-index:30}
+h1,h2,h3,.lg,.bt,.bd,.nm,.rg b,.stat b,.ch{font-family:"Bricolage Grotesque",Figtree,system-ui,sans-serif}
+h1{font-size:clamp(26px,5vw,38px);line-height:1.1;margin:6px 0 10px;letter-spacing:-.02em}
+h2{font-size:19px;margin:26px 0 10px}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--am);outline-offset:2px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;align-items:center;gap:8px;padding:10px 16px;background:var(--hd);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1.5px solid var(--ln);flex-wrap:wrap}
+.lg{font-size:20px;font-weight:800;letter-spacing:-.02em}.lg em{font-style:normal;color:var(--ac)}.sp{flex:1}
+.ib{border:1.5px solid var(--ln);background:var(--cd);border-radius:99px;padding:6px 13px;font-weight:600;font-size:13px;cursor:pointer;transition:transform .15s,border-color .2s}
+.ib:hover{border-color:var(--ac)}.ib:active{transform:scale(.94)}
+.w{max-width:1120px;margin:0 auto;padding:18px 16px}
+.mu{color:var(--mu)}.k{font-size:13px;font-weight:600;color:var(--mu)}
+.a{animation:up .45s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i,0)*45ms)}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes shake{20%,60%{transform:translateX(-6px)}40%,80%{transform:translateX(6px)}}
+@keyframes pop{50%{transform:scale(1.025)}}
+.hero{display:flex;gap:22px;align-items:center;flex-wrap:wrap;background:var(--cd);border:1.5px solid var(--ln);border-radius:20px;padding:22px;box-shadow:var(--sh)}
+.hero p{margin:0 0 14px;color:var(--mu)}
+.rg{position:relative;width:118px;height:118px;flex:none}.rg.big{width:150px;height:150px;margin:0 auto 10px}
+.rg svg{width:100%;height:100%;transform:rotate(-90deg)}
+.r0,.r1{fill:none;stroke-width:10}.r0{stroke:var(--ln)}.r1{stroke:var(--ac);stroke-linecap:round;stroke-dasharray:327;stroke-dashoffset:327;transition:stroke-dashoffset 1.3s cubic-bezier(.2,.8,.2,1)}
+.rg b{position:absolute;inset:0;display:grid;place-items:center;font-size:26px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:12px 0}
+.bt{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--ac);background:var(--ac);color:var(--bt);border-radius:99px;padding:10px 20px;font-weight:700;font-size:14px;cursor:pointer;transition:transform .15s,box-shadow .2s}
+.bt:hover{box-shadow:0 4px 0 var(--ht);transform:translateY(-2px)}.bt:active{transform:none;box-shadow:none}
+.bt.gh{background:var(--cd);color:var(--tx);border-color:var(--ln)}.bt.gh:hover{border-color:var(--ac);box-shadow:0 4px 0 var(--ln)}
+.srch input{width:100%;margin:18px 0 4px;padding:13px 16px;border-radius:14px;border:1.5px solid var(--ln);background:var(--cd);color:var(--tx);font:inherit;transition:border-color .2s}
+.srch input:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 4px color-mix(in srgb,var(--ac) 18%,transparent)}
+.chs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 16px}
+.ch{border:1.5px solid var(--ln);background:var(--cd);border-radius:99px;padding:6px 14px;font-weight:600;font-size:13px;cursor:pointer;transition:all .2s}
+.ch.on{background:var(--tx);border-color:var(--tx);color:var(--bg)}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.cd,.hu{--c:hsl(var(--h,230) 70% var(--lm))}
+.cd{position:relative;background:var(--cd);border:1.5px solid var(--ln);border-radius:16px;padding:18px;cursor:pointer;box-shadow:var(--sh);transition:transform .2s,box-shadow .2s,border-color .2s;overflow:hidden}
+.cd::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:var(--c)}
+.cd:hover{transform:translate(-2px,-4px);border-color:var(--c);box-shadow:0 7px 0 color-mix(in srgb,var(--c) 30%,var(--ln))}
+.ci{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;font-size:23px;background:color-mix(in srgb,var(--c) 16%,transparent);margin-bottom:8px}.ci.big{width:64px;height:64px;font-size:32px;flex:none}
+.cd h3{margin:8px 0 4px;font-size:17px}
+.cd p{color:var(--mu);font-size:13.5px;margin:0 0 12px;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ft{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;color:var(--mu);margin-bottom:6px}
+.pb{height:8px;background:var(--ln);border-radius:9px;overflow:hidden}
+.pb i{display:block;height:100%;width:0;border-radius:9px;background:var(--c,var(--ac));transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.bd{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 10px;border-radius:99px;color:var(--c);background:color-mix(in srgb,var(--c) 14%,transparent)}
+.bd.A{--c:var(--A)}.bd.M{--c:var(--M)}.bd.B{--c:var(--B)}
+.bc{font-size:13px;color:var(--mu);margin-bottom:6px}.bc a{color:var(--ac);font-weight:600}
+.mh,.hd{display:flex;gap:16px;align-items:center;justify-content:space-between}.mh{justify-content:flex-start}.mh p{margin:8px 0 0;color:var(--mu)}
+.rw{display:flex;align-items:center;gap:12px;background:var(--cd);border:1.5px solid var(--ln);padding:11px 14px;border-radius:14px;margin-bottom:9px;cursor:pointer;transition:transform .2s,border-color .2s}
+.rw:hover{transform:translateX(5px);border-color:var(--ac)}
+.rt{flex:1;font-weight:600;display:flex;flex-direction:column;line-height:1.3}.rt small{font-weight:400;color:var(--mu);font-size:12px}
+.nm{width:30px;height:30px;border-radius:9px;background:var(--hi);color:var(--ht);display:grid;place-items:center;font-size:13px;font-weight:700;flex:none}
+.rw em{color:var(--ok);font-style:normal;font-weight:800}
+.fv{border:0;background:none;font-size:20px;color:var(--ln);cursor:pointer;padding:0 4px;transition:transform .2s,color .2s}.fv.big{font-size:30px}
+.fv.on{color:var(--am);transform:scale(1.15)}.fv:hover{transform:scale(1.3) rotate(12deg)}
+.bx{background:var(--cd);border:1.5px solid var(--ln);border-radius:16px;padding:20px;margin:14px 0;box-shadow:var(--sh)}
+.bx h2{margin:0 0 10px;font-size:17px;color:var(--ac)}
+.fm{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+code{font-family:"Bricolage Grotesque",system-ui,sans-serif;background:color-mix(in srgb,var(--ac) 10%,transparent);border-left:4px solid var(--ac);padding:7px 12px;border-radius:8px;font-size:14px;font-weight:600}
+.dc{background:color-mix(in srgb,var(--am) 18%,transparent);border-left:4px solid var(--am);padding:10px 14px;border-radius:8px;font-size:14px}
+.op{display:flex;gap:12px;width:100%;text-align:left;background:var(--bg);border:2px solid var(--ln);border-radius:12px;padding:10px 14px;margin:8px 0;cursor:pointer;transition:transform .15s,border-color .2s}
+.op b{flex:none;width:26px;height:26px;border-radius:50%;background:var(--hi);color:var(--ht);display:grid;place-items:center;font-size:13px}
+.op:not(:disabled):hover{border-color:var(--ac);transform:translateX(4px)}.op:disabled{cursor:default}
+.op.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,transparent);animation:pop .4s}
+.op.er{border-color:var(--er);background:color-mix(in srgb,var(--er) 12%,transparent);animation:shake .4s}
+.op.ok b{background:var(--ok);color:var(--bt)}.op.er b{background:var(--er);color:var(--bt)}
+.fb{margin-top:14px;padding:14px;border-radius:12px;border-left:5px solid var(--ok);background:color-mix(in srgb,var(--ok) 10%,transparent);animation:up .4s both}
+.fb.erb{border-color:var(--er);background:color-mix(in srgb,var(--er) 9%,transparent)}.fb p{margin:6px 0 0}
+.dn{background:var(--cd);color:var(--ac);border:1.5px solid var(--ac);border-radius:99px;padding:11px 24px;font:700 14px "Bricolage Grotesque",sans-serif;cursor:pointer;transition:all .25s}
+.dn.on{background:var(--ok);border-color:var(--ok);color:var(--bt)}
+.pn{display:flex;justify-content:space-between;gap:10px;margin:18px 0;flex-wrap:wrap}
+.qh{display:flex;gap:14px;align-items:center;justify-content:space-between;margin:8px 0}
+.res{text-align:center;padding:10px 0}
+.stat{text-align:center;margin:0}.stat span{font-size:22px}.stat b{display:block;font-size:26px}.stat small{color:var(--mu)}
+.mr{display:grid;grid-template-columns:minmax(120px,1.2fr) 2fr minmax(90px,.8fr);gap:10px;align-items:center;padding:7px 0;font-size:13.5px}
+.mr small,.mr2 small{color:var(--mu);text-align:right}.mr2{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px dashed var(--ln);font-size:13.5px}
+.sb{display:flex;height:10px;background:var(--ln);border-radius:9px;overflow:hidden}.sb i{display:block;width:0;transition:width 1s cubic-bezier(.2,.8,.2,1)}.sb .g1{background:var(--ok)}.sb .e1{background:var(--er)}
+.sm{text-align:center;display:flex;flex-direction:column;gap:2px;font:inherit}.sm b{font-family:"Bricolage Grotesque",sans-serif;font-size:28px}
+.empty{text-align:center;font-size:40px}.empty p{font-size:15px;color:var(--mu)}
+.fcnt{text-align:center;color:var(--mu);font-size:13px;margin:4px 0 8px}.fcb{justify-content:center}
+.fcw{perspective:1200px}.fcard{position:relative;height:300px;transition:transform .6s cubic-bezier(.3,.8,.3,1);transform-style:preserve-3d;cursor:pointer}.fcard.flip{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:20px;padding:22px;display:flex;flex-direction:column;gap:10px;justify-content:center;align-items:center;text-align:center;background:var(--cd);border:1.5px solid var(--ln);box-shadow:var(--sh);overflow:auto}
+.face.bk2{transform:rotateY(180deg);background:var(--hi)}.face h2{font-size:24px;margin:0}
+nav{position:fixed;left:50%;transform:translateX(-50%);bottom:0;z-index:20;width:min(100%,680px);display:flex;gap:2px;padding:8px 8px calc(8px + env(safe-area-inset-bottom,0px));background:var(--hd);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1.5px solid var(--ln);border-bottom:0;border-radius:20px 20px 0 0}
+nav a{flex:1;display:flex;flex-direction:column;align-items:center;font-size:19px;line-height:1.25;padding:5px 2px;border-radius:12px;color:var(--mu);transition:all .25s}
+nav i{font-style:normal}nav a span{font-size:10.5px;font-weight:700}nav a.on{background:var(--hi);color:var(--ht);transform:translateY(-3px)}
+.nt{font-size:12px;color:var(--mu);margin:28px 0 0}
+.mapWrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:8px;border-radius:16px}
+.mapSvg{background:var(--cd);border:1.5px solid var(--ln);border-radius:16px;padding:10px;display:block}
+.tlSvg{width:100%;height:auto;background:var(--cd);border:1.5px solid var(--ln);border-radius:16px;padding:10px}
+.err{background:var(--cd);border:1.5px solid var(--ln);border-left:5px solid var(--er);border-radius:12px;padding:12px 16px;margin:10px 0}
+.err b{color:var(--er)}
+.err .fix{border-left-color:var(--ok);background:color-mix(in srgb,var(--ok) 8%,transparent);padding:6px 10px;border-radius:8px;margin-top:8px;font-size:13.5px;border-left:4px solid var(--ok)}
+@media(max-width:520px){.mr{grid-template-columns:1fr 1fr}.mr .sb{grid-column:1/-1;order:3}.hero{padding:16px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style></head><body>
+<header>
+<a class="lg" href="#/">📚 Português<em>·ENEM</em></a><span class="sp"></span>
+<button class="ib" id="tm" onclick="tmT()" title="Cronômetro de estudo">⏱ 00:00</button>
+<button class="ib" onclick="go('glossario')" title="Glossário">📖</button>
+<button class="ib" onclick="th()" aria-label="Alternar tema" title="Tema">🌓</button>
+</header>
+<div class="w"><main id="app"></main><p class="nt">As porcentagens de incidência são estimativas baseadas no histórico das provas anteriores do ENEM e podem variar a cada edição.</p></div>
+<nav>
+<a href="#/" data-r=""><i>🏠</i><span>Início</span></a>
+<a href="#/sim" data-r="sim"><i>📝</i><span>Simulado</span></a>
+<a href="#/fc" data-r="fc"><i>🧠</i><span>Conceitos</span></a>
+<a href="#/mapa" data-r="mapa"><i>🗺</i><span>Mapa</span></a>
+<a href="#/erros" data-r="erros"><i>⚠️</i><span>Erros</span></a>
+<a href="#/st" data-r="st"><i>📊</i><span>Stats</span></a>
+</nav>
+<script>
+/* ---------- DADOS ---------- */
+var M=[
+{n:"Interpretação de Texto e Compreensão Leitora",p:10,l:"A",d:"A habilidade central do ENEM: ler, compreender, inferir e reconhecer a intenção do autor.",s:"Ideia central e tema|A;Inferência e pressupostos|A;Ironia e humor no texto|A;Intenção do autor e propósito|A;Vocabulário no contexto|A;Relação título-texto|M;Denotação e conotação|A"},
+{n:"Gêneros Textuais e Tipos de Texto",p:10,l:"A",d:"Reconhecer tipos textuais e gêneros do cotidiano, do jornalismo à literatura.",s:"Tipos textuais: narração, descrição, dissertação e injunção|A;Notícia e reportagem|A;Crônica|A;Artigo de opinião|A;Editorial|A;Entrevista|A;Texto de divulgação científica|M;Charge, tirinha e anúncio|A;Gêneros literários: lírico, épico e dramático|A"},
+{n:"Variação Linguística e Preconceito Linguístico",p:7,l:"A",d:"As variedades da língua, sua adequação a contextos e o combate ao preconceito linguístico.",s:"Variação regional (diatópica)|A;Variação social (diastrática)|A;Variação situacional e registro|A;Variação histórica|M;Variação etária|M;Norma-padrão, norma culta e adequação|A;Gírias, jargões e preconceito linguístico|A"},
+{n:"Funções da Linguagem e Elementos da Comunicação",p:6,l:"A",d:"As seis funções da linguagem e como identificá-las em textos variados.",s:"Elementos da comunicação|A;Função referencial|A;Função emotiva|A;Função conativa|M;Função fática|A;Função poética|A;Função metalinguística|A"},
+{n:"Literatura: do Trovadorismo ao Classicismo",p:6,l:"A",d:"As origens da literatura em língua portuguesa: trovadorismo, humanismo e classicismo.",s:"Trovadorismo|A;Humanismo|M;Classicismo|A"},
+{n:"Literatura: Barroco ao Realismo",p:7,l:"A",d:"Barroco, Arcadismo, Romantismo e as estéticas realistas no Brasil e em Portugal.",s:"Barroco|A;Arcadismo|A;Romantismo|A;Realismo e Naturalismo|A;Parnasianismo, Simbolismo e Pré-Modernismo|A"},
+{n:"Literatura: Modernismo e Contemporaneidade",p:7,l:"A",d:"Das vanguardas europeias à literatura contemporânea brasileira e de língua portuguesa.",s:"Vanguardas europeias e Semana de 22|A;Modernismo: 1ª fase|A;Modernismo: 2ª e 3ª fases|A;Concretismo|M;Poesia marginal|M;Literatura de cordel|M;Literatura contemporânea|M;Literaturas africanas e indígenas de língua portuguesa|M"},
+{n:"Coesão e Coerência Textual",p:5,l:"A",d:"Como os textos se articulam por conectivos, referências e progressão temática.",s:"Coesão referencial e anáfora|A;Coesão lexical|A;Coesão por elipse|M;Coesão sequencial e conectivos|A;Operadores argumentativos|A;Paralelismo sintático-semântico|M;Coerência textual|A"},
+{n:"Figuras de Linguagem e Recursos Expressivos",p:6,l:"A",d:"Os recursos expressivos da língua e seu papel na construção de sentidos.",s:"Metáfora e comparação|A;Metonímia e sinédoque|A;Antítese e paradoxo|A;Hipérbole, eufemismo e personificação|M;Ironia e ambiguidade|A;Sinestesia|M;Gradação|M;Figuras sonoras: aliteração, assonância e onomatopeia|M"},
+{n:"Gramática Contextualizada: Morfologia e Sintaxe",p:6,l:"A",d:"Classes de palavras, sintaxe da oração e do período sempre ligadas ao sentido no texto.",s:"Classes de palavras|A;Estrutura e formação das palavras|M;Sujeito e predicado|A;Vozes verbais|M;Período composto por coordenação|M;Período composto por subordinação|M;Concordância verbal e nominal|A;Regência, crase e colocação pronominal|A"},
+{n:"Pontuação, Semântica e Ortografia",p:5,l:"M",d:"Os sinais de pontuação, as relações de sentido entre palavras e o Acordo Ortográfico.",s:"Vírgula: usos e efeitos de sentido|A;Ponto e vírgula, dois-pontos e travessão|A;Acentuação gráfica|M;Hífen|M;Relações de sentido entre palavras|M;Acordo Ortográfico de 1990|M;Letra e fonema|M;Adequação vocabular|M"},
+{n:"Intertextualidade, Polifonia e Paródia",p:4,l:"M",d:"Diálogos entre textos: citação, alusão, paráfrase, paródia e vozes no discurso.",s:"Citação, alusão e epígrafe|A;Paráfrase|A;Paródia e estilização|A;Discurso direto, indireto e polifonia|M"},
+{n:"Linguagem Verbal e Não Verbal",p:4,l:"A",d:"A leitura de imagens, gráficos, infográficos e a multimodalidade dos textos atuais.",s:"Verbal, não verbal e multimodal|A;Leitura de charges e tirinhas|A;Infográficos, gráficos e tabelas|A;Linguagem corporal|M;Artes visuais e leitura de imagem|M"},
+{n:"Argumentação e Persuasão",p:5,l:"M",d:"Tese, argumentos, falácias e as estratégias de convencimento no texto argumentativo.",s:"Tese e tipos de argumento|A;Argumento de autoridade|M;Argumento por causa e consequência|M;Contra-argumento e falácias|M;Ethos, pathos e logos|A;Modalizadores|M"},
+{n:"Linguagem, Mídia e Tecnologias Digitais",p:4,l:"M",d:"Hipertexto, memes, redes sociais, fake news e os gêneros digitais.",s:"Hipertexto e gêneros digitais|A;Memes e redes sociais|A;Fake news e checagem de informação|A;Letramento digital|M"},
+{n:"Redação do ENEM",p:6,l:"A",d:"As cinco competências, a estrutura dissertativo-argumentativa e a proposta de intervenção.",s:"As cinco competências|A;Competência 1: norma-padrão|A;Competência 2: tema e repertório|A;Competência 3: argumentação|A;Competência 4: coesão e coerência|A;Competência 5: proposta de intervenção|A;Repertório sociocultural|A;Desvios que zeram a nota|M"}
+];
+/* [resumo, conceitos[], dica, texto-base, enunciado, alternativas[], índice correto, resolução] */
+var C={
+"Ideia central e tema":[
+"Tema é o assunto geral do texto; ideia central é o que o autor afirma sobre esse tema. Enquanto o tema pode ser resumido em poucas palavras (por exemplo, 'redes sociais'), a ideia central traz uma posição: 'as redes sociais aproximam pessoas distantes, mas enfraquecem laços presenciais'. No ENEM, identificar a ideia central exige distinguir o que é apenas pano de fundo do que é a mensagem principal.",
+["Tema = assunto geral","Ideia central = o que se diz sobre o tema","Tese = opinião defendida em texto argumentativo","Tema ≠ tese"],
+"A pergunta clássica é 'qual é o tema?' ou 'qual a ideia defendida?'. Tema raramente é resposta: prefira a alternativa que traz uma afirmação sobre o assunto.",
+"Texto de autoria própria, adaptado para fins didáticos: “Vivemos cercados de telas. Elas nos conectam a pessoas distantes, mas também nos isolam de quem está ao lado. O celular na mesa do restaurante, ainda que desligado, já modifica a conversa: cada um sabe que pode ser interrompido a qualquer momento. A questão, portanto, não é demonizar a tecnologia, e sim perguntar quanto de presença ela nos custa.”",
+"Qual é a ideia central do texto?",
+["A tecnologia deve ser abandonada em restaurantes.","O celular é o principal inimigo das relações humanas.","A tecnologia conecta e isola ao mesmo tempo, e o autor propõe avaliar o preço dessa presença.","Restaurantes deveriam proibir o uso de celulares.","As conversas presenciais sempre foram melhores que as digitais."],
+2,"A ideia central articula os dois polos apresentados (conexão × isolamento) e a proposta final do autor ('perguntar quanto de presença ela nos custa'). As demais alternativas trazem posições radicais (A, B, D) que o texto não assume, ou uma generalização romântica (E). Tema seria apenas 'tecnologia e relações humanas'."
+],
+"Inferência e pressupostos":[
+"Inferência é concluir algo que não está dito explicitamente, mas que decorre do texto. Pressuposto é a informação que o enunciado toma como já sabida (por marcas linguísticas como 'ainda', 'já', 'também'). Subentendido é o que se insinua sem se comprometer. O ENEM cobra inferências ancoradas em pistas textuais, nunca em opinião pessoal.",
+["Inferir = deduzir a partir de pistas","Pressuposto: informação implícita marcada por palavras","Subentendido: insinuação sem marca explícita","Inferência ≠ adivinhação"],
+"Nunca responda 'com base na sua experiência'. Toda inferência válida tem de estar apoiada em uma marca do texto.",
+"Texto de autoria própria: “Quando cheguei à reunião, todos já estavam sentados. Minha cadeira, a única vazia, ficava no canto mais distante da mesa. O chefe ergueu os olhos, olhou o relógio e continuou a falar.”",
+"O que se pode inferir sobre o narrador?",
+["Que chegou atrasado e foi, de algum modo, preterido na disposição do espaço.","Que era o líder da reunião.","Que ninguém o conhecia na sala.","Que estava doente e não pôde comparecer.","Que o chefe o elogiaria em seguida."],
+0,"As marcas 'já estavam sentados', 'única vazia', 'canto mais distante' e o gesto do chefe (olhar o relógio) sustentam a inferência de atraso e certo desprestígio. As alternativas B e C não têm apoio no texto; D contradiz o próprio 'cheguei'; E é especulação sem pista."
+],
+"Ironia e humor no texto":[
+"Ironia é dizer o contrário do que se pensa, contando com a cumplicidade do leitor. O humor pode vir da quebra de expectativa, do exagero, do duplo sentido ou da crítica social. No ENEM, identificar ironia exige atenção ao contexto e ao contraste entre o que se diz e o que se sabe ser verdadeiro.",
+["Ironia: sentido figurado contrário ao literal","Humor: quebra de expectativa ou crítica","Contexto é decisivo","Não leia ironia como afirmação literal"],
+"Se a frase elogia algo que o texto antes criticou, é ironia. Se o texto parece afirmar algo absurdo, provavelmente está zombando.",
+"Texto de autoria própria, adaptado para fins didáticos (crônica): “Como é maravilhoso morar em uma cidade que investe tanto em transporte público! Basta esperar quarenta minutos na parada, em pé, no sol, para ver passar o ônibus lotado. É um privilégio raro, que poucos países oferecem.”",
+"O efeito de sentido produzido no trecho é de:",
+["Elogio sincero ao transporte público.","Descrição objetiva e neutra do sistema de ônibus.","Ironia, pois o autor critica o serviço usando palavras aparentemente elogiosas.","Nostalgia em relação a um sistema que já foi bom.","Defesa do uso de carros particulares como alternativa."],
+2,"As expressões 'maravilhoso', 'investe tanto' e 'privilégio raro' contrastam com as marcas negativas ('quarenta minutos', 'em pé', 'no sol', 'lotado'). Trata-se de ironia: elogia-se para criticar. A alternativa A lê literalmente; B ignora o juízo de valor; D e E extrapolam o texto."
+],
+"Intenção do autor e propósito":[
+"Todo texto é escrito com um propósito: informar, convencer, emocionar, divertir, instruir, vender, criticar. Reconhecer a intenção exige observar o gênero, o suporte, o público-alvo e as escolhas linguísticas. No ENEM, o enunciado costuma perguntar 'qual a finalidade do texto?'.",
+["Informar, persuadir, instruir, divertir, emocionar","Gênero e suporte ajudam a revelar a intenção","Público-alvo orienta as escolhas"],
+"Pergunte: 'para quê e para quem esse texto foi feito?'. Reportagem informa; anúncio vende; editorial opina; manual instrui.",
+"Texto de autoria própria (adaptado, com dados fictícios, para fins didáticos): “ATENÇÃO, MOTORISTA: a partir de 1º de março, o rodízio passa a valer também aos sábados, das 8h às 14h. Consulte a placa do seu veículo e evite multas. Informações: site da Prefeitura.”",
+"O texto tem como principal finalidade:",
+["Narrar um acontecimento recente.","Defender uma opinião sobre mobilidade urbana.","Informar o motorista sobre mudança de regra e orientá-lo a agir.","Divertir o leitor com uma situação cotidiana.","Promover a venda de um produto automotivo."],
+2,"O texto é uma comunicação oficial, em tom imperativo ('consulte', 'evite'), cujo objetivo é informar a nova regra e orientar o motorista. Não há narração (A), defesa de opinião (B), humor (D) nem venda (E)."
+],
+"Vocabulário no contexto":[
+"O sentido de uma palavra depende do contexto. Denotação é o sentido literal, dicionarizado; conotação é o sentido figurado, afetivo, situacional. Em 'vou cortar o cabelo' e 'vou cortar o orçamento', 'cortar' tem sentidos diferentes. O ENEM cobra essa leitura pela substituição ou pelo efeito de sentido.",
+["Denotação: sentido literal","Conotação: sentido figurado","Uma palavra pode ter vários sentidos (polissemia)","O contexto decide o sentido"],
+"Desconfie da 'palavra difícil': a pergunta quase sempre quer o sentido no texto, não no dicionário isolado.",
+"Texto de autoria própria: “A notícia caiu como uma bomba na redação: o diretor, que prometera transparência, havia sumido com o dinheiro do caixa.”",
+"O verbo 'cair', no contexto, tem sentido:",
+["Denotativo, indicando movimento físico de queda.","Conotativo, sugerindo impacto súbito e forte.","Denotativo, indicando queda de preço.","Conotativo, indicando queda de cabelo.","Neutro, sem carga expressiva."],
+1,"'Cair como uma bomba' é expressão figurada que indica impacto brusco e negativo. Não há queda física (A), mudança de preço (C) nem uso neutro (E). 'Cair' é polissêmico e assume, aqui, sentido conotativo."
+],
+"Relação título-texto":[
+"O título antecipa, resume, ironiza ou provoca a leitura do texto. Pode ter a função de síntese, de chamar atenção ou de criar expectativa. Em provas, a pergunta costuma pedir a relação entre o título e o conteúdo ou o efeito que ele produz.",
+["Título pode resumir, ironizar, provocar","Nem sempre é literal","O título dialoga com o corpo do texto"],
+"Se o título parece 'deslocado', provavelmente é irônico ou metafórico. Volte ao texto para confirmar.",
+"Texto de autoria própria (adaptado): Título de reportagem fictícia: “O país que aprendeu a ler — e esqueceu de entender”. Conteúdo da matéria: dados mostram aumento do letramento básico, mas queda na interpretação de textos complexos.",
+"A relação entre título e conteúdo é de:",
+["Contradiz o texto, sem relação com o conteúdo.","Sintetiza, com ironia, a diferença entre ler e compreender.","Apenas chama a atenção, sem relação com o conteúdo.","Reproduz literalmente o texto.","Apresenta uma opinião contrária à do texto."],
+1,"O título cria um paradoxo ('aprendeu a ler' × 'esqueceu de entender'), que sintetiza a tese do texto (letramento x interpretação) com ironia. Não contradiz (A), não é mero chamariz (C), não é cópia (D) nem oposição (E)."
+],
+"Denotação e conotação":[
+"Denotação é o sentido literal, objetivo, dicionarizado da palavra. Conotação é o sentido figurado, subjetivo, que depende do contexto. Em 'a pedra é dura' (denotação) e 'aquele coração é uma pedra' (conotação), a mesma palavra assume sentidos diferentes. O ENEM cobra a identificação desses sentidos e seus efeitos expressivos.",
+["Denotação: sentido literal","Conotação: sentido figurado","A conotação depende do contexto","Uma palavra pode ter os dois sentidos"],
+"Pergunte: 'esse sentido está no dicionário ou foi criado pelo contexto?'. Se depende do contexto, é conotativo.",
+"Texto de autoria própria: “O tempo voa quando estamos felizes.”",
+"O verbo 'voar', no contexto, tem sentido:",
+["Denotativo, indicando deslocamento físico.","Conotativo, sugerindo que o tempo passa rápido.","Denotativo, indicando viagem de avião.","Neutro, sem carga expressiva.","Técnico, usado em física."],
+1,"'O tempo voa' é expressão figurada que indica rapidez. Não há deslocamento físico (A), viagem (C), neutralidade (D) nem sentido técnico (E). Trata-se de conotação."
+],
+"Tipos textuais: narração, descrição, dissertação e injunção":[
+"Tipo textual é a estrutura básica do texto: narrar (contar fatos), descrever (caracterizar), dissertar (defender ideia), injungir (instruir, orientar). Um mesmo texto pode combinar tipos. Gênero textual é a forma socialmente reconhecida (crônica, receita, editorial). Não confunda tipo com gênero.",
+["Narração: ações no tempo, personagens","Descrição: características, estados","Dissertação: ideias, argumentos","Injunção: verbos no imperativo, instruções","Tipo ≠ gênero"],
+"Receita = gênero injuntivo. Crônica = gênero narrativo-dissertativo. Reportagem = gênero informativo.",
+"Texto de autoria própria: “Misture a farinha e o açúcar. Acrescente os ovos, um a um, mexendo sempre. Leve ao forno preaquecido por 30 minutos.”",
+"O tipo textual predominante é:",
+["Narrativo.","Descritivo.","Dissertativo.","Injuntivo.","Argumentativo."],
+3,"Verbos no imperativo ('misture', 'acrescente', 'leve') e a sequência de instruções caracterizam a injunção. Não há ações em sequência narrativa (A), características estáticas (B), defesa de opinião (C) nem argumentação (E)."
+],
+"Notícia e reportagem":[
+"Notícia informa um fato recente de forma objetiva, com lead (o quê, quem, quando, onde, como, por quê). Reportagem aprofunda o tema, com contexto, dados, entrevistas e interpretação. Ambas buscam objetividade, mas a reportagem admite mais análise e vozes.",
+["Notícia: fato recente, breve, objetiva","Reportagem: aprofundamento, contexto, vozes","Lead responde às 6 perguntas","Objetividade é um ideal, não uma ausência de escolhas"],
+"Notícia é curta e factual; reportagem é longa e interpretativa. Título e subtítulo ajudam a reconhecer.",
+"Texto de autoria própria (notícia fictícia, adaptada): “SÃO PAULO — Um incêndio atingiu, na madrugada desta terça-feira, um galpão na zona leste da cidade. Não houve vítimas. O Corpo de Bombeiros controlou o fogo em duas horas; as causas serão investigadas.”",
+"Sobre o texto, é correto afirmar:",
+["É uma reportagem, pois há entrevistas com moradores.","É uma notícia, pois apresenta o fato de forma breve e objetiva, respondendo às perguntas essenciais.","É uma crônica, pois parte de um fato cotidiano para reflexão.","É um editorial, pois expressa a opinião do jornal.","É um artigo de opinião, pois defende uma tese."],
+1,"O texto apresenta um fato de forma breve e objetiva, com as informações essenciais (o quê, quando, onde, consequências). Não há entrevistas (A), reflexão pessoal (C), opinião institucional (D) nem tese argumentativa (E)."
+],
+"Crônica":[
+"A crônica parte de um fato cotidiano, geralmente banal, para uma reflexão leve, humorística ou poética. Tem tom pessoal, subjetivo e, muitas vezes, coloquial. Publicada em jornais e revistas, é um gênero híbrido: mistura narração e comentário. Cronistas brasileiros: Machado de Assis, Rubem Braga, Fernando Sabino, Clarice Lispector, Luis Fernando Verissimo.",
+["Parte do cotidiano","Tom pessoal e subjetivo","Humor, lirismo ou crítica leve","Gênero híbrido: narra e comenta"],
+"Crônica é aquele texto curto que parece 'conversa com o leitor', com um 'eu' que reflete sobre o dia a dia.",
+"Texto de autoria própria (crônica, adaptada para fins didáticos): “Sexta-feira à noite, o supermercado parecia um formigueiro. Todo mundo com pressa, carrinhos cheios, um casal discutindo qual marca de arroz levar. Pensei comigo: talvez a gente esteja sempre escolhendo arroz quando queria estar escolhendo vida.”",
+"Sobre o texto, é correto afirmar:",
+["Trata-se de uma notícia, pois relata um fato ocorrido no supermercado.","Trata-se de um artigo de opinião, pois defende tese sobre consumo.","Trata-se de uma crônica, pois parte do cotidiano e o ressignifica em tom pessoal.","Trata-se de um verbete, pois define o que é supermercado.","Trata-se de um editorial, pois expressa a opinião de um jornal."],
+2,"O texto parte de uma cena banal (supermercado) e, em tom pessoal ('pensei comigo'), produz uma reflexão. Não é notícia (A), artigo (B), verbete (D) nem editorial (E)."
+],
+"Artigo de opinião":[
+"O artigo de opinião defende uma tese com argumentos, geralmente assinado, publicado em jornais, revistas ou sites. Tem tom argumentativo, com marcas de subjetividade e uso frequente de dados, exemplos e autoridade. Distingue-se do editorial: este expressa a posição do veículo, sem assinatura individual.",
+["Tese + argumentos","Assinado, opinião pessoal","Uso de dados, exemplos, autoridade","Editorial: opinião do veículo, não assinado"],
+"Se o texto começa com uma afirmação forte e depois a defende, é artigo. Se é impessoal e fala em nome do jornal, é editorial.",
+"Texto de autoria própria: “É preciso repensar o papel do celular nas escolas. Não se trata de demonizar a tecnologia, e sim de reconhecer que a atenção é um recurso escasso e precioso. Pesquisas mostram queda de desempenho em turmas com uso livre de aparelhos. Regular não é proibir: é ensinar a usar.”",
+"O texto é um exemplo de:",
+["Notícia.","Crônica.","Artigo de opinião.","Verbete de dicionário.","Manual de instruções."],
+2,"Há tese explícita ('É preciso repensar o papel do celular'), argumentos (pesquisas, distinção conceitual) e marcas de subjetividade. Não é notícia (A) nem crônica (B); não define palavra (D) nem instrui passo a passo (E)."
+],
+"Editorial":[
+"O editorial é um texto argumentativo que expressa a opinião de um veículo de comunicação (jornal, revista, portal). Não é assinado por uma pessoa, mas representa a posição institucional. Tem tom impessoal, defende uma tese e costuma abordar temas de interesse público.",
+["Opinião do veículo","Não assinado","Tom impessoal","Tese defendida"],
+"Não confunda editorial (opinião do jornal) com artigo de opinião (assinado por um autor). O editorial usa 'nós' institucional.",
+"Texto de autoria própria (editorial fictício): “Este jornal defende que a educação midiática seja incluída no currículo escolar. Em tempos de desinformação, ensinar a checar fontes é tão essencial quanto ensinar a ler.”",
+"O texto é um exemplo de:",
+["Notícia.","Crônica.","Editorial.","Artigo de opinião assinado.","Reportagem."],
+2,"O texto expressa a posição do veículo ('Este jornal defende'), sem assinatura, e defende uma tese. É um editorial. Não é notícia (A), crônica (B), artigo assinado (D) nem reportagem (E)."
+],
+"Entrevista":[
+"A entrevista é um gênero dialógico em que um entrevistador faz perguntas a um entrevistado, com o objetivo de obter informações, opiniões ou testemunhos. Pode ser publicada em jornais, revistas, sites, podcasts ou programas de TV. A transcrição mantém marcas da oralidade.",
+["Perguntas e respostas","Vozes do entrevistador e do entrevistado","Marcas de oralidade","Gênero jornalístico"],
+"Em uma entrevista, as falas do entrevistado vêm em discurso direto. Observe quem fala e o que é informação nova.",
+"Texto de autoria própria (trecho de entrevista fictícia): “— Professor, o que mudou no ensino de leitura? — Antes, lia-se para responder questionários; hoje, busca-se formar leitores críticos, capazes de interpretar e questionar.”",
+"O trecho é exemplo de:",
+["Notícia.","Editorial.","Entrevista.","Crônica.","Verbete."],
+2,"Há perguntas e respostas, com discurso direto, caracterizando a entrevista. Não é notícia (A), editorial (B), crônica (D) nem verbete (E)."
+],
+"Texto de divulgação científica":[
+"O texto de divulgação científica traduz conhecimentos especializados para o público geral, usando linguagem acessível, exemplos e analogias. Mantém o rigor da informação, mas evita jargões excessivos. É comum em revistas como Ciência Hoje e Superinteressante, e em sites de universidades.",
+["Linguagem acessível","Rigor científico preservado","Analogias e exemplos","Público não especialista"],
+"Não confunda com artigo científico (destinado a pares, com jargão técnico). A divulgação científica adapta a linguagem.",
+"Texto de autoria própria (adaptado): “Pesquisadores descobriram que dormir menos de seis horas por noite aumenta o risco de problemas cardíacos. O estudo acompanhou 10 mil pessoas por cinco anos. 'O sono é um remédio gratuito', resume a cardiologista.”",
+"O texto é exemplo de:",
+["Artigo científico original.","Texto de divulgação científica.","Editorial.","Notícia policial.","Verbete."],
+1,"O texto traduz um estudo para o público geral, com linguagem acessível e citação de especialista. É divulgação científica. Não é artigo original (A), editorial (C), notícia policial (D) nem verbete (E)."
+],
+"Charge, tirinha e anúncio":[
+"Charge é desenho de humor com crítica política ou social, geralmente ligada a um fato do momento. Tirinha é narrativa curta em quadrinhos, com personagens fixos e humor recorrente. Anúncio publicitário busca persuadir o consumidor, combinando imagem, texto e apelo emocional. Nos três, a leitura depende da articulação entre linguagem verbal e não verbal.",
+["Charge: crítica social ou política, atual","Tirinha: humor em quadrinhos, personagens fixos","Anúncio: persuasão, apelo ao consumo","Verbal + não verbal constroem sentido"],
+"Na charge, procure o fato do momento. Na tirinha, observe a quebra de expectativa. No anúncio, identifique o público-alvo e o apelo.",
+"Descrição de tirinha (texto adaptado): No primeiro quadrinho, um menino diz: 'Pai, o que é crise?'. No segundo, o pai responde: 'Crise é quando o dinheiro some'. No terceiro, o menino, olhando o celular do pai, pergunta: 'E o senhor já foi procurar no Google Maps?'.",
+"O efeito de humor da tirinha está:",
+["Na informação incorreta dada pelo pai.","Na quebra de expectativa: o menino trata 'crise' como objeto localizável.","Na tristeza do menino.","No uso do celular como tema principal.","Na repetição de palavras."],
+1,"O humor vem do deslocamento de sentido: 'crise' (conceito econômico) é tratada como algo que se pode localizar, como num mapa. A alternativa A erra a informação; C, D e E não são a fonte do riso."
+],
+"Gêneros literários: lírico, épico e dramático":[
+"Os gêneros literários são as grandes categorias que classificam as obras segundo sua forma e conteúdo. O gênero lírico expressa sentimentos e emoções do eu poético, geralmente em versos. O épico narra feitos heroicos e acontecimentos históricos, com narrador e personagens. O dramático é destinado à encenação, com diálogos e rubricas, representado por atores.",
+["Lírico: sentimentos e emoções","Épico: narrativa de feitos heroicos","Dramático: destinado à encenação","Soneto, epopeia e peça teatral são exemplos"],
+"Não confunda gênero literário (lírico, épico, dramático) com movimento literário (Barroco, Romantismo) nem com tipo textual (narração, descrição).",
+"Texto de autoria própria (adaptado): “A peça encenada no teatro municipal apresentava diálogos entre personagens e rubricas que indicavam os movimentos dos atores no palco. A plateia acompanhava a história de Romeu e Julieta, comovida com o desfecho trágico.”",
+"O trecho descreve uma obra do gênero:",
+["Lírico.","Épico.","Dramático.","Narrativo.","Dissertativo."],
+2,"A presença de diálogos, rubricas e encenação por atores caracteriza o gênero dramático. Não é lírico (A, que expressa sentimentos), épico (B, que narra feitos heroicos) nem tipo textual (D, E)."
+],
+"Variação regional (diatópica)":[
+"Variação regional é a diferença linguística entre falantes de regiões diferentes: sotaques, vocabulário (mandioca/aipim/macaxeira) e construções. É fenômeno natural de toda língua viva e não indica erro nem pobreza. O ENEM cobra o reconhecimento de variedades e o respeito a elas.",
+["Variação diatópica = regional","Vocabulário, pronúncia e sintaxe variam","Nenhuma variedade é superior","Adequação ≠ correção"],
+"Não confunda variação com erro. Regionalismo é variedade; o 'erro' existe só em relação a uma norma de referência.",
+"Texto de autoria própria: “Em Minas, 'trem' é qualquer coisa. 'Que trem bom!' pode se referir a uma comida, a uma pessoa, a um lugar. Em outras regiões, a mesma palavra designa apenas o veículo sobre trilhos.”",
+"Sobre o trecho, é correto afirmar:",
+["O uso mineiro de 'trem' é um erro de português.","O uso mineiro de 'trem' é uma variação regional legítima, com sentidos ampliados.","A palavra 'trem' deveria ser banida do vocabulário.","O texto mostra que mineiros falam errado.","A variação só existe na fala, nunca na escrita."],
+1,"O texto ilustra a variação regional (diatópica): em Minas, 'trem' amplia o sentido. A variedade é legítima e não constitui erro. A variação também aparece na escrita literária e em outras manifestações."
+],
+"Variação social (diastrática)":[
+"Variação social é a diferença linguística associada a grupos sociais, faixas etárias, profissões ou graus de escolaridade. Um médico fala de forma diferente de um jogador em campo; um jovem de um idoso. Essas variedades convivem e se adequam a contextos — não há hierarquia entre elas como valor humano.",
+["Variação diastrática = grupos sociais","Jargões profissionais, gírias de grupos","Faixa etária e escolaridade influenciam","Não confunda com 'certo' e 'errado'"],
+"Não rotule falantes nem julgue variedades. Descreva o fenômeno, não o hierarquize.",
+"Texto de autoria própria (adaptado, com dados fictícios): “Em uma partida de futebol, o técnico grita: 'Marca em cima, pressiona, sobe a linha!'. Em uma sala de aula, o mesmo técnico explica a regra do impedimento em linguagem técnica. O mesmo falante, duas variedades.”",
+"O trecho ilustra:",
+["Erro gramatical do técnico.","Incapacidade do técnico de falar português correto.","Variação social e situacional: o falante ajusta a variedade ao contexto.","Confusão mental do falante.","Que só existe uma forma correta de falar."],
+2,"O exemplo mostra o mesmo falante ajustando a linguagem ao contexto (campo × sala de aula). É variação, não erro. As alternativas A, B e D julgam o falante; E nega a variação."
+],
+"Variação situacional e registro":[
+"Variação situacional (diafásica) ocorre quando o mesmo falante muda a linguagem conforme a situação: um e-mail para o chefe é diferente de uma mensagem no grupo da família. Registro é o grau de formalidade: formal, informal, técnico, coloquial. A escolha depende do interlocutor, do gênero e do suporte.",
+["Variação diafásica = situação","Registro formal × informal","Adequação ao contexto","Mesmo falante, várias variedades"],
+"Cobrança recorrente: avaliar se a linguagem é adequada ao contexto, não se é 'bonita' ou 'feia'.",
+"Texto de autoria própria: “Aluno escreve ao professor: 'E aí, prof, beleza? Manda a nota aí, tô ansioso.' Na semana seguinte, escreve à coordenação: 'Prezados, solicito a divulgação das notas do bimestre.'.”",
+"O trecho evidencia:",
+["Que o aluno não sabe escrever.","Variação situacional: o aluno ajusta o registro ao interlocutor.","Que a primeira mensagem é um erro de português.","Que a segunda mensagem é falsa e pomposa.","Que só a segunda mensagem tem valor."],
+1,"O mesmo aluno ajusta a linguagem (informal × formal) conforme o interlocutor. Isso é variação diafásica. Não se trata de erro nem de falsidade: é adequação."
+],
+"Variação histórica":[
+"A língua muda com o tempo: palavras e construções que eram comuns em séculos passados hoje soam arcaicas, e novas formas surgem a cada geração. Esse é o fenômeno da variação histórica (ou diacrônica). O português do século XVI, de Camões, é diferente do português atual; 'vossa mercê' virou 'você', e 'pharmácia' virou 'farmácia'.",
+["Variação diacrônica = ao longo do tempo","Arcaísmos e neologismos","A língua é viva e mutável","Não confunda com 'erro'"],
+"Questões que comparam textos de épocas diferentes costumam pedir a identificação de arcaísmos ou de mudanças ortográficas. A mudança não é decadência.",
+"Texto de autoria própria (adaptado): “No século XIX, escrevia-se 'vossa mercê'; depois, 'vosmecê'; hoje, 'você'. A forma atual não é um erro: é o resultado de um longo processo de mudança linguística.”",
+"A afirmação ilustra:",
+["Erro gramatical progressivo.","Variação histórica: a língua muda ao longo do tempo.","Variação regional.","Variação social.","Ausência de norma."],
+1,"A transformação de 'vossa mercê' em 'você' é um exemplo clássico de variação histórica (diacrônica). Não há erro (A), nem se trata de diferença regional (C) ou social (D). A norma-padrão registra a forma atual."
+],
+"Variação etária":[
+"A variação etária (ou geracional) ocorre quando grupos de diferentes idades usam a língua de modo distinto. Gírias de uma geração podem soar datadas para outra; expressões como 'na moral', 'massa' ou 'irado' marcam época. A variação etária é uma forma de variação social, ligada à faixa de idade.",
+["Diferenças de uso por faixa etária","Gírias geracionais","Marca de identidade do grupo","Não é erro, é variação"],
+"Se um texto mostra um adulto que não entende uma gíria de jovem, ou um jovem que acha a fala do avô 'antiga', há variação etária.",
+"Texto de autoria própria: “A avó disse: 'Que rapaz atencioso!'. A neta respondeu: 'Ele é mó legal, vó!'. As duas falam português; usam variedades diferentes.”",
+"O trecho exemplifica:",
+["Erro de português da neta.","Variação etária: avó e neta usam variedades distintas da língua.","Que a avó fala melhor que a neta.","Que a neta não sabe português.","Que gírias são erros."],
+1,"'Mó legal' é marca de variedade juvenil; 'atencioso' é mais formal. Trata-se de variação etária, não de erro. As alternativas C, D e E hierarquizam falantes indevidamente."
+],
+"Norma-padrão, norma culta e adequação":[
+"Norma-padrão é a variedade prescrita por gramáticas e manuais, associada à escrita formal. Norma culta é a variedade efetivamente usada por falantes escolarizados em situações formais. Nem sempre coincidem. Adequação é escolher a variedade certa para o contexto — não existe 'a única forma correta'.",
+["Norma-padrão: prescrição","Norma culta: uso efetivo dos escolarizados","Norma-padrão ≠ norma culta","Adequação: escolha pelo contexto"],
+"Cuidado: 'norma culta' não é sinônimo de 'norma-padrão'. ENEM cobra essa distinção em várias questões.",
+"Texto de autoria própria: “Grandes escritores modernistas usaram, na literatura, construções que a gramática tradicional condena — e fizeram isso de propósito, para representar a fala brasileira.”",
+"A afirmação é coerente com a ideia de que:",
+["A gramática tradicional sempre está certa.","A norma-padrão é a única forma aceitável na literatura.","A norma culta e a norma-padrão podem divergir, e a literatura registra esse uso.","A literatura não pode inovar.","Escritores que inovam escrevem errado."],
+2,"A literatura modernista (Mário de Andrade, Guimarães Rosa) registra a fala brasileira, distinta da norma-padrão, sem que isso seja erro. Norma culta (uso) e norma-padrão (prescrição) podem divergir."
+],
+"Gírias, jargões e preconceito linguístico":[
+"Gíria é vocabulário típico de um grupo ou geração, com validade passageira. Jargão é vocabulário técnico de uma área. Preconceito linguístico é julgar pessoas por sua variedade, tratando diferenças como erros ou sinais de ignorância. Combater esse preconceito é reconhecer a variação como fenômeno social.",
+["Gíria: grupo e época","Jargão: área técnica","Preconceito linguístico: julgar falantes","Toda variedade é legítima"],
+"Uma variedade não é 'feia' ou 'errada': é diferente. A norma-padrão é uma ferramenta de adequação, não um critério de valor humano.",
+"Texto de autoria própria (adaptado): “Ao ouvir um estudante dizer 'nós vai', uma professora corrigiu: 'Não é assim que se fala'. O aluno, morador da periferia, silenciou. Pesquisadores apontam que a correção sem explicação reforça o preconceito linguístico.”",
+"Sobre o episódio, é correto afirmar:",
+["A professora agiu corretamente, pois 'nós vai' é erro grave.","A atitude da professora reforça o preconceito linguístico ao desqualificar a variedade do aluno sem explicar a norma.","O aluno deveria ser reprovado.","A variedade do aluno é inferior à norma-padrão.","Todas as variedades são idênticas."],
+1,"'Nós vai' é marca de variedade popular, não erro de raciocínio. A correção sem mediação desqualifica o falante e reforça o preconceito. Variedades não são superiores ou inferiores entre si: são adequadas ou não a contextos."
+],
+"Elementos da comunicação":[
+"Todo ato comunicativo envolve seis elementos: emissor (quem fala), receptor (a quem se fala), mensagem (o que se diz), código (a língua ou sistema), canal (o meio) e contexto (a situação). A ênfase em cada um desses elementos corresponde a uma função da linguagem.",
+["Emissor","Receptor","Mensagem","Código","Canal","Contexto"],
+"Se a mensagem fala sobre o próprio código, é metalinguística. Se fala do canal, é fática.",
+"Descrição de esquema (adaptado): Emissor → Mensagem → Receptor (com Código, Canal e Contexto atravessando o processo).",
+"Em uma conversa telefônica, quando alguém diz 'Alô? Está me ouvindo?', a ênfase recai sobre qual elemento?",
+["Emissor.","Receptor.","Mensagem.","Código.","Canal."],
+4,"'Alô? Está me ouvindo?' testa o canal (o meio físico). Essa é a função fática. Não se refere ao emissor (A), ao receptor em si (B), nem ao conteúdo (C) nem ao código (D)."
+],
+"Função referencial":[
+"A função referencial (ou denotativa) enfatiza o contexto, a informação objetiva, os fatos. É típica de notícias, textos científicos, manuais. Linguagem impessoal, denotativa, com verbos no presente ou pretérito do indicativo.",
+["Ênfase no contexto","Linguagem objetiva e denotativa","Típica de notícias e textos científicos","Informa, não opina"],
+"Se o texto informa sem opinar, é referencial. Se o autor se expõe, é emotiva.",
+"Texto de autoria própria: “A água ferve a 100 °C ao nível do mar. Em altitudes maiores, a temperatura de ebulição diminui, o que exige mais tempo de cozimento.”",
+"A função da linguagem predominante é:",
+["Emotiva.","Conativa.","Referencial.","Poética.","Fática."],
+2,"O texto informa de modo objetivo, sem marcas de emissor nem de apelo ao receptor. É referencial. As demais funções enfatizam emissor (A), receptor (B), forma (D) ou canal (E)."
+],
+"Função emotiva":[
+"A função emotiva (ou expressiva) enfatiza o emissor, suas emoções, opiniões e sentimentos. Marcas típicas: 1ª pessoa, interjeições, adjetivação valorativa. É comum em diários, poemas líricos, cartas pessoais, letras de música confessionais.",
+["Ênfase no emissor","1ª pessoa, interjeições","Subjetividade","Poema lírico e diário são exemplos"],
+"Dica: se o texto está centrado no 'eu' que sente, é emotiva. Não confunda com poética, que enfatiza a forma.",
+"Texto de autoria própria (adaptado): “Ah, como eu queria voltar àquela tarde! Sinto ainda o cheiro do mar, o calor do sol na pele, a alegria simples de existir.”",
+"A função da linguagem predominante é:",
+["Referencial.","Emotiva.","Conativa.","Metalinguística.","Fática."],
+1,"Marcas de 1ª pessoa ('eu queria', 'sinto'), interjeição ('Ah!') e adjetivação afetiva indicam função emotiva. Não é referencial (A), nem apela ao receptor (C), nem fala do código (D) nem do canal (E)."
+],
+"Função conativa":[
+"A função conativa (ou apelativa) enfatiza o receptor: busca influenciá-lo, convencê-lo ou orientá-lo. Marcas: verbos no imperativo, vocativos, 2ª pessoa. É típica de publicidade, propaganda, discursos políticos e manuais.",
+["Ênfase no receptor","Imperativo, vocativo","Publicidade e propaganda","Busca convencer ou orientar"],
+"Se o texto interpela diretamente o leitor ('Venha!', 'Você merece'), é conativa.",
+"Texto de autoria própria: “Você que sempre sonhou em falar inglês: chegou a sua chance. Matricule-se hoje e ganhe 30% de desconto. Não perca!”",
+"A função da linguagem predominante é:",
+["Emotiva.","Referencial.","Conativa.","Poética.","Metalinguística."],
+2,"O texto interpela o leitor ('Você', 'Matricule-se', 'Não perca'), caracterizando função conativa. Não há marca de emissor (A), nem informação objetiva (B), nem exploração formal (D) nem foco no código (E)."
+],
+"Função fática":[
+"A função fática enfatiza o canal da comunicação: testar se ele está funcionando, iniciar, manter ou encerrar o contato. Expressões como 'alô?', 'está me ouvindo?', 'né?', 'tá?', 'entendeu?' são típicas. É comum em conversas telefônicas e em interações rápidas.",
+["Ênfase no canal","Testa ou mantém o contato","'Alô?', 'Tá me ouvindo?', 'Né?'","Comum em telefonemas"],
+"Se a mensagem não traz informação nova, mas apenas verifica o contato, é fática.",
+"Texto de autoria própria: “— Alô? — Oi, tudo bem? — Tudo. Você está me ouvindo bem? — Estou.”",
+"A função da linguagem predominante é:",
+["Referencial.","Emotiva.","Fática.","Poética.","Metalinguística."],
+2,"As falas testam o canal ('Alô?', 'Você está me ouvindo bem?'). É função fática. Não há informação objetiva (A), emoção (B), exploração formal (D) nem foco no código (E)."
+],
+"Função poética":[
+"A função poética enfatiza a forma da mensagem: ritmo, sonoridade, rimas, figuras, repetições, jogos de palavras. Não se restringe a poemas: aparece em slogans, manchetes, letras de música e anúncios. O que importa é a elaboração da linguagem.",
+["Ênfase na forma da mensagem","Ritmo, rima, sonoridade","Figuras de linguagem","Não só em poemas"],
+"Se a escolha das palavras importa mais do que a informação em si, é poética. Em 'a vida é uma estrada', a metáfora é poética.",
+"Texto de autoria própria: “O vento venta, a chuva chove, o tempo passa e não se move.”",
+"A função da linguagem predominante é:",
+["Referencial.","Fática.","Poética.","Conativa.","Emotiva."],
+2,"Há repetição sonora ('vento venta', 'chuva chove'), ritmo e jogo de palavras. É função poética. Não há informação objetiva (A), teste de canal (B), apelo ao receptor (D) nem foco no emissor (E)."
+],
+"Função metalinguística":[
+"A função metalinguística ocorre quando a linguagem fala de si mesma: definições de dicionário, gramáticas, comentários sobre o próprio texto, versos que discutem a poesia. O código é o foco.",
+["Linguagem fala de si mesma","Dicionário e gramática","Comentário sobre o texto","Foco no código"],
+"Se o texto define uma palavra, comenta a própria escrita ou explica um termo, é metalinguística.",
+"Texto de autoria própria: “'Poesia', no dicionário, é a arte de compor versos. Mas quem já leu um poema sabe que a definição não cabe no verbete.”",
+"A função que predomina no trecho é:",
+["Fática.","Emotiva.","Poética.","Metalinguística.","Conativa."],
+3,"O texto discute o significado de 'poesia', isto é, usa a linguagem para falar da própria linguagem. É metalinguística. Não testa canal (A), não enfatiza emissor (B), não explora a forma (C) nem interpela o leitor (E)."
+],
+"Trovadorismo":[
+"O Trovadorismo é o primeiro movimento literário da língua portuguesa, situado na Idade Média (séculos XII a XV). As cantigas são sua principal manifestação: cantigas de amor (eu lírico masculino sofre por dama idealizada), de amigo (eu lírico feminino lamenta a ausência do amado), de escárnio e de maldizer (satíricas). Autores como D. Dinis e Paio Soares de Taveirós compõem esse período.",
+["Séculos XII-XV","Cantigas de amor, amigo, escárnio e maldizer","Eu lírico feminino nas cantigas de amigo","D. Dinis, Paio Soares de Taveirós"],
+"Nas cantigas de amigo, o eu lírico é feminino e lamenta a ausência do amado. Não confunda com cantigas de amor, de eu lírico masculino.",
+"Citação (domínio público): “Ai flores, ai flores do verde pino, / se sabedes novas do meu amigo! / Ai Deus, e u é?” (D. Dinis, Cantiga de amigo)",
+"Sobre o trecho, é correto afirmar:",
+["Pertence às cantigas de amor, com eu lírico masculino.","Pertence às cantigas de amigo: eu lírico feminino lamenta a ausência do amado.","Pertence ao Classicismo, pela referência à natureza.","Pertence ao Romantismo, pela idealização.","Pertence ao Barroco, pelo conflito religioso."],
+1,"O eu lírico feminino pergunta pelas 'novas do meu amigo': é cantiga de amigo, típica do Trovadorismo. Não é cantiga de amor (A), nem Classicismo (C), Romantismo (D) ou Barroco (E)."
+],
+"Humanismo":[
+"O Humanismo (séculos XV-XVI) é a transição entre a Idade Média e o Renascimento. Caracteriza-se pela valorização do ser humano, da razão e da cultura greco-latina. Em Portugal, destacam-se o teatro de Gil Vicente (Auto da Barca do Inferno) e a poesia palaciana. É o momento em que a literatura se volta para o homem, não apenas para Deus.",
+["Séculos XV-XVI","Transição Idade Média → Renascimento","Valorização do ser humano","Gil Vicente, poesia palaciana"],
+"Não confunda Humanismo (transição, Gil Vicente) com Classicismo (Renascimento, Camões). O Humanismo precede o Classicismo.",
+"Texto de autoria própria (adaptado): “O Auto da Barca do Inferno, de Gil Vicente, encenado no século XVI, retrata personagens da sociedade portuguesa chegando à barca que os levará ao inferno ou ao paraíso. Com humor e crítica, o autor satiriza as classes sociais.”",
+"Sobre o trecho, é correto afirmar:",
+["É exemplo de Classicismo, pela epopeia.","É exemplo de Humanismo: teatro de Gil Vicente, com crítica social e transição para o Renascimento.","É exemplo de Barroco, pelo conflito religioso.","É exemplo de Romantismo, pela idealização.","É exemplo de Trovadorismo, pelas cantigas."],
+1,"O Auto da Barca do Inferno é a obra-síntese do Humanismo português: teatro crítico e transição. Não é Classicismo (A), Barroco (C), Romantismo (D) nem Trovadorismo (E)."
+],
+"Classicismo":[
+"O Classicismo (século XVI, Renascimento) retoma os ideais greco-latinos: equilíbrio, harmonia, racionalidade, formas clássicas. Em Portugal, Luís Vaz de Camões escreve Os Lusíadas (1572), epopeia que narra as navegações portuguesas e a história do povo lusitano. O soneto é a forma lírica mais cultivada. A linguagem é culta e elaborada.",
+["Século XVI","Equilíbrio, harmonia, racionalidade","Camões e Os Lusíadas","Soneto, epopeia, medida nova"],
+"Não confunda Classicismo (Camões, equilíbrio) com Barroco (conflito, século XVII). São movimentos opostos.",
+"Citação (domínio público): “As armas e os barões assinalados, / Que da ocidental praia Lusitana, / Por mares nunca de antes navegados, / Passaram ainda além da Taprobana.” (Luís de Camões, Os Lusíadas, Canto I)",
+"Sobre o trecho, é correto afirmar:",
+["Pertence ao Barroco, pelo conflito religioso.","Pertence ao Classicismo: epopeia camoniana, exaltação dos feitos portugueses com equilíbrio formal.","Pertence ao Romantismo, pela exaltação da pátria.","Pertence ao Realismo, pela crítica social.","Pertence ao Modernismo, pela linguagem coloquial."],
+1,"Os versos abrem Os Lusíadas, epopeia clássica que exalta as navegações. Não é Barroco (A), Romantismo (C), Realismo (D) nem Modernismo (E)."
+],
+"Barroco":[
+"O Barroco (século XVII, no Brasil com Gregório de Matos e o padre Antônio Vieira) é marcado pelo conflito entre fé e razão, efêmero e eterno, corpo e alma. Usa antíteses, paradoxos, hipérboles e cultismo (jogo de palavras) e conceptismo (jogo de ideias). É a estética do conflito e da instabilidade.",
+["Século XVII","Conflito fé × razão, corpo × alma","Cultismo e conceptismo","Antíteses e paradoxos","Autores: Gregório de Matos, Vieira"],
+"Não confunda Barroco (conflito, século XVII) com Arcadismo (equilíbrio, século XVIII) nem com Romantismo (sentimento, século XIX).",
+"Citação (domínio público): “Que és, enfim, vaidade? / Um nada que parece, / Que, parecendo, engana, / Que, enganando, agrada, / Que, agradando, mata.” (adaptado de Sermão da Sexagésima, de Antônio Vieira)",
+"Sobre o trecho, é correto afirmar:",
+["É um exemplo de Arcadismo, com exaltação da vida simples no campo.","É um exemplo de Barroco, com jogo conceptista sobre a vaidade, marcado por antíteses e paradoxos.","É um exemplo de Romantismo, com subjetividade exacerbada.","É um exemplo de Realismo, com crítica social objetiva.","É um exemplo de Parnasianismo, com valorização da forma."],
+1,"O trecho joga com conceitos (vaidade que engana e mata), procedimento conceptista típico do Barroco. Não há bucolismo arcádico (A), nem subjetividade romântica (C), nem crítica realista (D) nem formalismo parnasiano (E)."
+],
+"Arcadismo":[
+"O Arcadismo (século XVIII, no Brasil com Cláudio Manuel da Costa, Tomás Antônio Gonzaga, Basílio da Gama e Santa Rita Durão) retoma ideais clássicos: simplicidade, equilíbrio, bucolismo. O poeta assume o papel de pastor (fugere urbem, carpe diem, aurea mediocritas). Há idealização da vida no campo e crítica velada ao mundo urbano.",
+["Século XVIII","Bucolismo, pastoralismo","Carpe diem, aurea mediocritas","Cláudio Manuel da Costa, Gonzaga","Equilíbrio, simplicidade"],
+"Arcadismo idealiza a natureza e a vida simples; Romantismo idealiza o herói e a pátria. Não confunda.",
+"Citação (domínio público): “Eu, Marília, não sou algum vaqueiro, / Que viva de guardar alheio gado; / De tosco trato, de expressões grosseiro, / Dos frios gelos, e dos sóis queimado.” (Tomás Antônio Gonzaga, Marília de Dirceu)",
+"Sobre o trecho, é correto afirmar:",
+["Pertence ao Barroco, pelo conflito religioso.","Pertence ao Arcadismo: o eu lírico assume a persona de pastor, idealizando a vida simples.","Pertence ao Romantismo, pela exaltação da pátria.","Pertence ao Realismo, pela crítica social.","Pertence ao Modernismo, pela linguagem coloquial."],
+1,"O eu lírico, embora diga que não é vaqueiro, assume o universo pastoral (persona do pastor), procedimento típico do Arcadismo. Não há conflito barroco (A), exaltação romântica (C), crítica realista (D) nem linguagem modernista (E)."
+],
+"Romantismo":[
+"O Romantismo brasileiro (século XIX) divide-se em três fases: indianista (Gonçalves Dias, exaltação do índio e da pátria), ultrarromântica (Álvares de Azevedo, pessimismo, morte, escapismo) e condoreira (Castro Alves, poesia social e abolicionista). Valoriza subjetividade, sentimento, natureza e liberdade. Na prosa, destacam-se José de Alencar e Manuel Antônio de Almeida.",
+["Subjetividade, sentimento","Indianismo, ultrarromantismo, condoreirismo","Gonçalves Dias, Álvares de Azevedo, Castro Alves","Exaltação da pátria e da liberdade"],
+"Distinga: indianista (Gonçalves Dias) ≠ ultrarromântico (Álvares de Azevedo) ≠ condoreiro (Castro Alves).",
+"Citação (domínio público): “Minha terra tem palmeiras, / Onde canta o Sabiá; / As aves, que aqui gorjeiam, / Não gorjeiam como lá.” (Gonçalves Dias, Canção do Exílio, 1843)",
+"Sobre o trecho, é correto afirmar:",
+["É Arcadismo, pela idealização do campo.","É Romantismo indianista, pela exaltação da pátria e da terra natal.","É Barroco, pelo conflito entre fé e razão.","É Parnasianismo, pela forma rígida.","É Modernismo, pela linguagem coloquial."],
+1,"'Canção do Exílio' é o poema-síntese do Romantismo indianista: exaltação da pátria e saudosismo. Não é Arcadismo (A), Barroco (C), Parnasianismo (D) nem Modernismo (E)."
+],
+"Realismo e Naturalismo":[
+"Realismo (segunda metade do século XIX) busca retratar a realidade com objetividade, criticando a sociedade burguesa, suas hipocrisias e instituições. Machado de Assis é o grande nome. Naturalismo radicaliza: vê o ser humano como produto do meio, da hereditariedade e do instinto; Aluísio Azevedo (O Cortiço) é referência. Ambos abandonam o idealismo romântico.",
+["Realismo: crítica social, análise psicológica","Naturalismo: determinismo, cientificismo","Machado de Assis, Aluísio Azevedo","Ruptura com o idealismo romântico"],
+"Não confunda Realismo (crítica pela ironia, análise) com Naturalismo (determinismo biológico e social).",
+"Citação (domínio público): “Ao vencedor, as batatas!” (Machado de Assis, Quincas Borba, 1891)",
+"Sobre a frase, é correto afirmar:",
+["É lema romântico de exaltação do herói.","É expressão do Realismo: com ironia, sintetiza a lei do mais forte nas relações humanas e sociais.","É lema parnasiano de valorização da forma.","É expressão simbolista de transcendência.","É lema árcade de vida simples."],
+1,"'Ao vencedor, as batatas!' é a máxima do Humanitismo, filosofia irônica de Quincas Borba, que satiriza a luta pela vida e a hipocrisia social. É Realismo. Não é Romantismo (A), Parnasianismo (C), Simbolismo (D) nem Arcadismo (E)."
+],
+"Parnasianismo, Simbolismo e Pré-Modernismo":[
+"Parnasianismo (final do século XIX) valoriza a forma perfeita, rimas ricas, sonetos, vocabulário rebuscado, temas greco-romanos: 'arte pela arte'. Olavo Bilac é o grande nome. Simbolismo busca o mistério, a musicalidade, a sinestesia, o inconsciente: Cruz e Sousa. Pré-Modernismo (início do século XX) não é escola, mas conjunto de obras que antecipam questões sociais e modernas: Euclides da Cunha, Lima Barreto, Monteiro Lobato, Augusto dos Anjos.",
+["Parnasianismo: forma perfeita, soneto","Simbolismo: musicalidade, mistério","Pré-Modernismo: transição, crítica social","Bilac, Cruz e Sousa, Lima Barreto, Euclides"],
+"Parnasianismo = forma. Simbolismo = sugestão. Pré-Modernismo = denúncia social.",
+"Citação (domínio público): “Longe do estéril turbilhão da rua, / Beneditino, escreve! No aconchego / Do claustro, na paciência e no sossego, / Trabalha, e teima, e lima, e sofre, e sua!” (Olavo Bilac, Profissão de Fé)",
+"Sobre o trecho, é correto afirmar:",
+["É Simbolismo, pela musicalidade e mistério.","É Pré-Modernismo, pela crítica social.","É Parnasianismo: exalta o trabalho paciente com a forma, a 'arte pela arte'.","É Romantismo, pela subjetividade exacerbada.","É Barroco, pelos conflitos religiosos."],
+2,"'Profissão de Fé' é o manifesto do Parnasianismo: culto à forma, ao trabalho artesanal do verso. Não é Simbolismo (A), Pré-Modernismo (B), Romantismo (D) nem Barroco (E)."
+],
+"Vanguardas europeias e Semana de 22":[
+"As vanguardas europeias (Futurismo, Cubismo, Dadaísmo, Surrealismo, Expressionismo) rompem com a tradição, valorizando velocidade, fragmentação, inconsciente, choque. A Semana de Arte Moderna (São Paulo, fevereiro de 1922) reúne artistas como Mário de Andrade, Oswald de Andrade, Anita Malfatti e Villa-Lobos, propondo uma arte brasileira, livre de academicismos.",
+["Vanguardas: ruptura e experimentação","Semana de 22: marco do Modernismo brasileiro","Mário e Oswald de Andrade, Anita Malfatti","Nacionalismo crítico e linguagem inovadora"],
+"A Semana de 22 foi em fevereiro de 1922, no Theatro Municipal de São Paulo. Não confunda com a Semana de Arte Moderna de outras cidades.",
+"Texto de autoria própria (adaptado): “A Semana de Arte Moderna, realizada em fevereiro de 1922 no Theatro Municipal de São Paulo, provocou escândalo ao apresentar poesia livre de métrica rígida, música dissonante e telas expressionistas. O público vaiava; os artistas, porém, abriam caminho para uma arte brasileira, moderna e crítica.”",
+"Sobre a Semana de 22, é correto afirmar:",
+["Foi um evento de exaltação do Parnasianismo.","Foi um encontro de artistas acadêmicos, fiéis às regras clássicas.","Foi um marco do Modernismo brasileiro, com ruptura de padrões e proposta de arte nacional e inovadora.","Foi um evento exclusivamente literário, sem participação de músicos ou artistas plásticos.","Foi um movimento contrário à liberdade formal."],
+2,"A Semana de 22 é o marco inaugural do Modernismo brasileiro, com ruptura de padrões e proposta de arte nacional. Participaram escritores, músicos e artistas plásticos. As demais alternativas contradizem o evento."
+],
+"Modernismo: 1ª fase":[
+"A 1ª fase do Modernismo brasileiro (1922-1930) é heroica: busca romper com o passado, valorizar a língua brasileira, o humor, a paródia, o cotidiano. Mário de Andrade (Pauliceia Desvairada, Macunaíma) e Oswald de Andrade (Manifesto Antropófago, Manifesto Pau-Brasil) são centrais. Há nacionalismo crítico e experimentalismo formal.",
+["1922-1930","Ruptura e experimentação","Mário e Oswald de Andrade","Manifestos Pau-Brasil e Antropófago","Linguagem coloquial e paródia"],
+"'Macunaíma' (1928), de Mário de Andrade, é o romance-síntese da 1ª fase.",
+"Citação (domínio público, 1ª fase): “No meio do caminho tinha uma pedra / tinha uma pedra no meio do caminho / tinha uma pedra / no meio do caminho tinha uma pedra.” (Carlos Drummond de Andrade, No meio do caminho, 1928)",
+"Sobre o poema, é correto afirmar:",
+["Pertence ao Parnasianismo, pela forma fixa.","Pertence à 1ª fase do Modernismo: repetição, verso livre, banalidade elevada a tema poético.","Pertence ao Barroco, pelo conflito religioso.","Pertence ao Romantismo, pela idealização.","Pertence ao Simbolismo, pela musicalidade."],
+1,"A repetição hipnótica, o verso livre e o tema banal (a pedra) são marcas da 1ª fase modernista. O poema foi publicado em 1928. Não é Parnasianismo (A), Barroco (C), Romantismo (D) nem Simbolismo (E)."
+],
+"Modernismo: 2ª e 3ª fases":[
+"A 2ª fase (1930-1945) é de consolidação: romance regionalista de 30 (Graciliano Ramos, Rachel de Queiroz, Jorge Amado, Érico Veríssimo) e poesia de Drummond, Murilo Mendes, Cecília Meireles, Vinicius de Moraes. A 3ª fase (1945-1960) é o Pós-Modernismo/Geração de 45: rigor formal, Clarice Lispector e Guimarães Rosa na prosa, João Cabral de Melo Neto na poesia.",
+["2ª fase: romance de 30 e poesia madura","3ª fase: rigor formal, inovação linguística","Graciliano, Drummond, Clarice, Rosa, Cabral","Aprofundamento social e existencial"],
+"Graciliano Ramos (Vidas Secas) e Rachel de Queiroz (O Quinze) são da 2ª fase. Guimarães Rosa e Clarice Lispector, da 3ª.",
+"Texto de autoria própria (adaptado): “Em Vidas Secas, Graciliano Ramos narra a luta de uma família sertaneja contra a seca, com linguagem enxuta e foco nos bichos e no silêncio. O romance pertence à 2ª fase do Modernismo, chamada de regionalista.”",
+"Sobre o romance, é correto afirmar:",
+["Pertence à 1ª fase modernista, pela experimentação radical.","Pertence à 2ª fase: romance regionalista de 30, com crítica social e linguagem enxuta.","Pertence à 3ª fase, pelo rigor formal e experimental.","Pertence ao Romantismo, pela idealização do sertanejo.","Pertence ao Naturalismo, pelo determinismo racial."],
+1,"'Vidas Secas' é romance regionalista da 2ª fase (1938), com crítica social e linguagem seca. Não é experimentação da 1ª fase (A), nem rigor formal da 3ª (C), nem Romantismo (D) nem Naturalismo racial (E)."
+],
+"Concretismo":[
+"O Concretismo foi um movimento de vanguarda brasileiro (anos 1950), liderado por Augusto de Campos, Haroldo de Campos e Décio Pignatari. Propunha a poesia concreta: o poema como objeto visual, com valorização do espaço gráfico, da sonoridade e da estrutura, abolindo o verso tradicional. A palavra é tratada como material plástico.",
+["Anos 1950","Poesia visual e espacial","Augusto e Haroldo de Campos, Décio Pignatari","Ruptura com o verso tradicional"],
+"Se um poema explora a disposição gráfica das palavras na página, é provavelmente concreto. O visual faz parte do sentido.",
+"Texto de autoria própria (adaptado): “Na poesia concreta, as palavras são dispostas no papel como formas: 'sol' pode ocupar o centro da página, e 'sombra' pode contorná-lo. O espaço em branco também significa.”",
+"Sobre o Concretismo, é correto afirmar:",
+["Pertence ao Romantismo, pela subjetividade.","É movimento dos anos 1950 que explora a visualidade e o espaço gráfico na poesia.","É movimento barroco de conflito religioso.","Pertence ao Parnasianismo, pela forma fixa.","É movimento de poesia oral e marginal."],
+1,"O Concretismo (anos 1950) valoriza a disposição gráfica, o espaço e a materialidade da palavra. Não é Romantismo (A), Barroco (C) nem Parnasianismo (D). A poesia marginal é outro movimento."
+],
+"Poesia marginal":[
+"A poesia marginal (ou 'geração mimeógrafo') surgiu nos anos 1970, à margem do circuito editorial oficial. Poetas como Ana Cristina Cesar, Cacaso, Chacal e Torquato Neto produziam livros artesanais, com linguagem coloquial, cotidiana e experimental. Marcada pela contracultura e pela resistência à ditadura.",
+["Anos 1970","'Geração mimeógrafo'","Linguagem coloquial e cotidiana","Ana Cristina Cesar, Cacaso, Chacal"],
+"Não confunda poesia marginal (anos 1970) com literatura marginal/periférica (anos 2000, como Ferréz). São movimentos distintos.",
+"Texto de autoria própria (adaptado): “Nos anos 1970, jovens poetas imprimiam seus versos em mimeógrafos e vendiam os livretos em bares e shows. A linguagem era direta, falada, sem academicismo. Era a poesia marginal.”",
+"Sobre a poesia marginal, é correto afirmar:",
+["Surgiu nos anos 1950, com os concretos.","Foi um movimento dos anos 1970, com edição artesanal e linguagem coloquial.","Pertence ao Modernismo de 22.","É o mesmo que literatura periférica contemporânea.","Foi um movimento parnasiano."],
+1,"A poesia marginal é dos anos 1970, com edição mimeografada e linguagem coloquial. Não é concretismo (A), Modernismo de 22 (C) nem Parnasianismo (E). A literatura periférica é outro movimento (D)."
+],
+"Literatura de cordel":[
+"A literatura de cordel é uma manifestação popular nordestina, com origens no século XIX, que chega ao Brasil com os colonizadores. Tradicionalmente impressa em folhetos pendurados em cordões ('cordéis'), é escrita em versos rimados, geralmente sextilhas ou septilhas, e aborda temas como religião, política, amor, humor e crítica social. Autores como Patativa do Assaré são referência.",
+["Origem popular nordestina","Folhetos pendurados em cordel","Versos rimados (sextilha, septilha)","Patativa do Assaré","Temas sociais, humor e religião"],
+"O cordel é gênero literário e suporte (folheto). No ENEM, pode aparecer como texto para interpretação ou como referência cultural.",
+"Texto de autoria própria (adaptado, em estilo de cordel): “Seu doutor, preste atenção / no que vou lhe perguntar: / por que tanta desigualdade / se o país tem tanto mar? / O povo trabalha e sofre, / mas não consegue avançar.”",
+"O trecho é exemplo de:",
+["Poema parnasiano.","Literatura de cordel: versos rimados, linguagem popular e crítica social.","Soneto barroco.","Poesia concreta.","Crônica jornalística."],
+1,"Os versos rimados, a linguagem popular e a crítica social são marcas do cordel. Não é Parnasianismo (A), Barroco (C), Concretismo (D) nem crônica (E)."
+],
+"Literatura contemporânea":[
+"A literatura brasileira contemporânea (a partir dos anos 1960-70) é marcada por pluralidade de vozes, mistura de gêneros, metalinguagem, narrativas fragmentadas, crítica ao cânone e à sociedade. Autores como Clarice Lispector, Guimarães Rosa, Hilda Hilst, Rubem Fonseca, Milton Hatoum, Conceição Evaristo, Ferréz e Itamar Vieira Junior compõem esse panorama diverso.",
+["Pluralidade de vozes","Mistura de gêneros e linguagens","Crítica ao cânone","Conceição Evaristo, Ferréz, Itamar Vieira Junior"],
+"ENEM tem cobrado com frequência a literatura marginal/periférica e autoras negras e indígenas, como Conceição Evaristo.",
+"Texto de autoria própria (adaptado, com base em características da obra de Conceição Evaristo): “A escrevivência — escrever a partir da própria experiência — tornou-se chave para se pensar uma literatura afro-brasileira que fala da dor, mas também da potência das mulheres negras.”",
+"Sobre o termo 'escrevivência', é correto afirmar:",
+["Designa uma técnica de escrita automática surrealista.","É um conceito da escritora Conceição Evaristo: escrever a partir da experiência vivida, sobretudo das mulheres negras brasileiras.","Designa o romance regionalista de 30.","É sinônimo de literatura de cordel.","Foi cunhado por Machado de Assis."],
+1,"'Escrevivência' é conceito cunhado por Conceição Evaristo, que articula escrita e experiência de vida. Não é surrealismo (A), regionalismo (C), cordel (D) nem criação machadiana (E)."
+],
+"Literaturas africanas e indígenas de língua portuguesa":[
+"As literaturas africanas de língua portuguesa (Angola, Moçambique, Cabo Verde, Guiné-Bissau, São Tomé e Príncipe) surgem no contexto colonial e pós-colonial, com autores como Pepetela, Mia Couto, Ondjaki e Noémia de Sousa. A literatura indígena contemporânea, com autores como Ailton Krenak, Eliane Potiguara e Daniel Munduruku, afirma vozes e cosmologias originárias, muitas vezes em diálogo com a escrita em português.",
+["Contexto colonial e pós-colonial","Mia Couto, Pepetela, Ondjaki","Literatura indígena contemporânea","Afirmação de identidades e cosmologias"],
+"Não confunda literatura africana de língua portuguesa com literatura brasileira: são tradições distintas, com história própria.",
+"Texto de autoria própria (adaptado): “Em Terra Sonâmbula, Mia Couto entrelaça histórias de Moçambique devastado pela guerra, com uma linguagem que reinventa o português, mesclando oralidade e neologismos.”",
+"Sobre o autor e a obra, é correto afirmar:",
+["Mia Couto é autor brasileiro, ligado ao regionalismo de 30.","Mia Couto é autor moçambicano que reinventa a língua portuguesa, mesclando oralidade e neologismos em obras como Terra Sonâmbula.","Terra Sonâmbula é romance português do século XIX.","Mia Couto é autor angolano de literatura colonial.","Terra Sonâmbula é obra de literatura indígena."],
+1,"Mia Couto é moçambicano e sua obra reinventa o português, misturando oralidade, neologismos e tradições. Não é brasileiro (A) nem português (C) nem angolano (D) nem indígena (E)."
+],
+"Coesão referencial e anáfora":[
+"Coesão referencial é o mecanismo que liga partes do texto por meio de retomadas: pronomes, sinônimos, elipses, numerais, advérbios. A anáfora é a retomada de um termo já mencionado (referência retrospectiva); a catáfora é a antecipação de um termo que ainda será mencionado (referência prospectiva). Ambas garantem a continuidade e evitam repetições.",
+["Anáfora: retomada de termo anterior","Catáfora: antecipação de termo posterior","Pronomes, sinônimos, elipse","Coesão ≠ coerência"],
+"'Comprei um livro. Ele é ótimo.' — 'Ele' é anáfora de 'livro'. 'Quero isto: paz.' — 'isto' é catáfora de 'paz'.",
+"Texto de autoria própria: “O diretor chamou o aluno. Ele estava apreensivo.”",
+"A palavra 'Ele', no trecho, é exemplo de:",
+["Catáfora, pois antecipa um termo.","Anáfora, pois retoma 'o aluno'.","Coesão lexical por sinônimo.","Coesão por elipse.","Coesão sequencial."],
+1,"'Ele' retoma 'o aluno', termo já mencionado: é anáfora. Não antecipa (A), não é sinônimo (C), elipse (D) nem conectivo (E)."
+],
+"Coesão lexical":[
+"A coesão lexical é feita por meio de sinônimos, hiperônimos, hipônimos, repetições controladas e associações de sentido. Ela evita repetições desnecessárias e garante a continuidade temática. Não se confunde com coesão referencial (pronomes), embora ambas atuem juntas.",
+["Sinônimos e antônimos","Hiperônimos e hipônimos","Repetição controlada","Evita repetições"],
+"'Animal' é hiperônimo de 'cachorro'; 'cachorro' é hipônimo de 'animal'. Usar 'o animal' para retomar 'cachorro' é coesão lexical.",
+"Texto de autoria própria: “Comprei um cachorro. O animal é brincalhão e late muito.”",
+"A expressão 'O animal' retoma 'cachorro' por:",
+["Coesão referencial por pronome.","Coesão lexical por hiperônimo.","Coesão sequencial por conectivo.","Coesão por elipse.","Coesão por substituição pronominal."],
+1,"'Animal' é hiperônimo de 'cachorro': trata-se de coesão lexical por hiperônimo. Não é pronome (A), conectivo (C), elipse (D) nem substituição pronominal (E)."
+],
+"Coesão por elipse":[
+"A elipse é a omissão de um termo que pode ser facilmente recuperado pelo contexto. É um recurso de coesão que evita repetições e torna o texto mais econômico. Exemplo: 'Ele comprou pão; eu, queijo' — o verbo 'comprei' está elíptico.",
+["Omissão de termo recuperável","Evita repetição","Coesão por elipse","Comum em coordenações"],
+"Se o texto omite um termo mas o leitor o recupera pela gramática ou pelo sentido, há elipse.",
+"Texto de autoria própria: “Maria prefere café; João, chá.”",
+"No trecho, a vírgula após 'João' marca:",
+["Erro de pontuação.","Elipse do verbo 'prefere'.","Separação de sujeito e predicado.","Vocativo.","Aposto."],
+1,"A vírgula indica a elipse do verbo 'prefere' ('João prefere chá'). É coesão por elipse. Não é erro (A), nem separa sujeito e predicado (C), nem vocativo (D) nem aposto (E)."
+],
+"Coesão sequencial e conectivos":[
+"A coesão sequencial liga enunciados por conectivos que estabelecem relações de sentido: adição ('e', 'além disso'), oposição ('mas', 'porém'), causa ('porque', 'pois'), conclusão ('portanto', 'logo'), tempo ('quando', 'enquanto'). O uso adequado desses elementos é o que garante a progressão e a clareza.",
+["Adição: e, também, além disso","Oposição: mas, porém, contudo","Causa: porque, pois, já que","Conclusão: portanto, logo","Tempo: quando, enquanto"],
+"Cada conectivo carrega uma relação específica. Trocar 'mas' por 'portanto' muda o sentido. Preste atenção ao valor semântico.",
+"Texto de autoria própria: “Estudou muito para a prova. ______, não obteve a nota esperada.”",
+"Qual conectivo completa adequadamente, expressando oposição?",
+["Portanto","Além disso","No entanto","Porque","Assim"],
+2,"'No entanto' expressa oposição (contraste entre estudar e não obter resultado). 'Portanto' e 'assim' indicariam conclusão; 'além disso', adição; 'porque', causa."
+],
+"Operadores argumentativos":[
+"Operadores argumentativos são palavras que orientam a argumentação, indicando a força dos argumentos: 'até', 'mesmo', 'inclusive' (inclusão); 'aliás', 'além disso' (soma); 'mas', 'porém' (oposição); 'portanto' (conclusão). Escolher bem o operador é decidir o rumo do raciocínio.",
+["Orientam a argumentação","Indicam soma, oposição, conclusão","'Até' e 'mesmo' reforçam","'Mas' introduz o argumento mais forte"],
+"Em 'Ele é inteligente, mas preguiçoso', o 'mas' indica que a segunda qualidade é decisiva. Trocar a ordem muda tudo.",
+"Texto de autoria própria: “O candidato tem boa formação, ______ nunca ocupou cargo de gestão. Isso pesa contra ele.”",
+"O operador que preenche a lacuna com valor de oposição é:",
+["portanto","e","mas","porque","logo"],
+2,"'Mas' introduz o argumento contrário (falta de experiência). 'Portanto' e 'logo' indicam conclusão; 'e' soma; 'porque' causa."
+],
+"Paralelismo sintático-semântico":[
+"O paralelismo é a repetição de estruturas gramaticais semelhantes em uma sequência, garantindo ritmo, clareza e coesão. O paralelismo sintático repete a mesma estrutura; o semântico, a mesma relação de sentido. A quebra de paralelismo gera estranheza ou ambiguidade.",
+["Repetição de estruturas","Garante ritmo e clareza","Paralelismo sintático e semântico","Quebra gera estranheza"],
+"Em enumerações, mantenha a mesma estrutura: 'ele canta, dança e toca' (verbos), não 'ele canta, dança e é músico'.",
+"Texto de autoria própria: “A proposta visa reduzir custos, melhorar o atendimento e ampliar o acesso.”",
+"O trecho apresenta:",
+["Quebra de paralelismo.","Paralelismo sintático: três verbos no infinitivo em sequência.","Erro de concordância.","Ambiguidade.","Coesão referencial."],
+1,"Os três verbos no infinitivo ('reduzir', 'melhorar', 'ampliar') mantêm a mesma estrutura, configurando paralelismo sintático. Não há quebra (A), erro (C), ambiguidade (D) nem foco referencial (E)."
+],
+"Coerência textual":[
+"Coerência é a unidade de sentido do texto: as partes devem fazer sentido entre si, respeitando a lógica, o contexto e o conhecimento partilhado. Um texto pode ser coeso (bem costurado) e incoerente (sem sentido). Envolve também a adequação ao gênero e a não contradição.",
+["Sentido global","Não contradição","Adequação ao contexto","Coerência ≠ coesão"],
+"Um texto com conectivos adequados pode ainda ser incoerente se as ideias se contradizem ou fogem do tema.",
+"Texto de autoria própria: “Chovia muito. Por isso, ninguém saiu de casa. No entanto, as ruas ficaram cheias, e o comércio fez o melhor dia do ano.”",
+"Sobre o texto, é correto afirmar:",
+["É plenamente coerente, pois os fatos se encaixam.","É coeso, mas incoerente: as informações se contradizem (chuva forte e ruas cheias).","É incoerente, mas sem nenhum conectivo.","É coerente, pois a chuva sempre traz mais clientes.","É incoerente apenas por falta de pontuação."],
+1,"Há conectivos adequados (coesão), mas as informações se contradizem (incoerência): se chove muito, espera-se ruas vazias. A alternativa D tenta justificar o ilógico; A e E não captam a contradição."
+],
+"Metáfora e comparação":[
+"Metáfora é a substituição do termo próprio por outro, com base em semelhança implícita ('meu coração é um deserto'). Comparação (ou símile) usa conector explícito, geralmente 'como': 'meu coração é como um deserto'. A metáfora é mais condensada; a comparação, mais explícita.",
+["Metáfora: sem conectivo","Comparação: com 'como', 'tal qual'","Base: semelhança","Metáfora ≠ metonímia"],
+"Procure o 'como'. Se houver, é comparação. Sem ele, é metáfora (quando a base é semelhança).",
+"Texto de autoria própria: “Meus olhos são dois faróis acesos na escuridão.”",
+"Qual figura de linguagem predomina?",
+["Metonímia.","Hipérbole.","Metáfora.","Eufemismo.","Antítese."],
+2,"Há semelhança implícita entre olhos e faróis (ambos iluminam), sem uso de 'como'. É metáfora. Não é metonímia (A, que é troca por contiguidade), nem hipérbole (B, exagero), nem eufemismo (D), nem antítese (E)."
+],
+"Metonímia e sinédoque":[
+"Metonímia é a substituição de um termo por outro com base em relação de contiguidade: autor pela obra ('ler Machado'), marca pelo produto ('um bom vinho do Porto'), parte pelo todo ('teto para todos'). Sinédoque é uma forma específica de metonímia: parte pelo todo, singular pelo plural, etc.",
+["Metonímia: contiguidade","Autor pela obra, marca pelo produto","Sinédoque: parte pelo todo","Metonímia ≠ metáfora"],
+"Metáfora é semelhança; metonímia é proximidade/contiguidade. Se você 'bebe um Porto', é metonímia.",
+"Texto de autoria própria: “Li um Machado inteiro nas férias; depois, fui ao teatro ver um Shakespeare.”",
+"Nos dois casos, há:",
+["Metáfora, por semelhança.","Metonímia: o autor é tomado pela obra.","Hipérbole, por exagero.","Antítese, por oposição.","Personificação, por animação."],
+1,"'Um Machado' e 'um Shakespeare' substituem as obras pelos autores. É metonímia (autor pela obra). Não há semelhança (A), exagero (C), oposição (D) nem atribuição de vida (E)."
+],
+"Antítese e paradoxo":[
+"Antítese é a aproximação de termos de sentido contrário ('o amor e o ódio convivem'). Paradoxo é a união de ideias contraditórias numa mesma proposição, produzindo um sentido que ultrapassa a lógica comum ('é um silêncio ensurdecedor'). A antítese opõe; o paradoxo funde.",
+["Antítese: oposição de termos","Paradoxo: contradição fundida","Antítese separa; paradoxo une","Ambos produzem efeito expressivo"],
+"Se as ideias se opõem mantendo-se separadas, é antítese. Se se fundem de modo ilógico, é paradoxo.",
+"Texto de autoria própria: “Ele era um cego que via tudo; um mudo que tudo dizia.”",
+"Qual figura de linguagem predomina?",
+["Metonímia.","Paradoxo.","Comparação.","Eufemismo.","Hipérbole."],
+1,"As ideias se fundem em contradição (cego que vê, mudo que diz), o que caracteriza paradoxo. Não é metonímia (A), comparação (C, sem 'como'), eufemismo (D) nem hipérbole (E)."
+],
+"Hipérbole, eufemismo e personificação":[
+"Hipérbole é o exagero intencional ('chorei rios de lágrimas'). Eufemismo é a suavização de ideias desagradáveis ('ele nos deixou' em vez de 'morreu'). Personificação (prosopopeia) atribui características humanas a seres inanimados ('o vento sussurrava segredos').",
+["Hipérbole: exagero","Eufemismo: suavização","Personificação: traços humanos a não humanos"],
+"Reconheça pelo efeito: exagero, suavização ou humanização. Cada uma produz uma emoção distinta.",
+"Texto de autoria própria: “A cidade dormia, e o rio contava histórias antigas às pedras da margem.”",
+"Qual figura predomina?",
+["Hipérbole.","Eufemismo.","Personificação.","Antítese.","Metonímia."],
+2,"Atribuem-se ações humanas (dormir, contar histórias) a seres inanimados (cidade, rio). É personificação/prosopopeia. Não há exagero (A), suavização (B), oposição (D) nem contiguidade (E)."
+],
+"Ironia e ambiguidade":[
+"Ironia é dizer o contrário do que se quer significar, contando com a cumplicidade do leitor. Ambiguidade é a duplicidade de sentido, que pode ser intencional (recurso expressivo) ou acidental (defeito). O ENEM cobra a ironia como crítica e a ambiguidade como recurso ou problema, conforme o contexto.",
+["Ironia: sentido invertido","Ambiguidade: duplo sentido","Pode ser intencional (arte) ou acidental (defeito)","O contexto decide"],
+"Nem toda ambiguidade é erro: em literatura e publicidade, ela pode ser recurso expressivo.",
+"Texto de autoria própria: “Que sorte a minha! Peguei um trânsito maravilhoso hoje: duas horas parado na mesma avenida.”",
+"O efeito predominante é:",
+["Ambiguidade.","Ironia: a palavra 'sorte' e o adjetivo 'maravilhoso' dizem o contrário do que se quer expressar.","Eufemismo.","Metonímia.","Hipérbole sem ironia."],
+1,"'Que sorte' e 'maravilhoso' contrastam com a experiência negativa (trânsito parado). É ironia. Não é ambiguidade (A), eufemismo (C), metonímia (D) nem hipérbole isolada (E)."
+],
+"Sinestesia":[
+"A sinestesia é a mistura de sensações de sentidos diferentes: 'doce silêncio' (paladar + audição), 'cor quente' (visão + tato). É uma figura de linguagem que explora a inter-relação dos sentidos, muito comum na poesia simbolista e na publicidade.",
+["Mistura de sentidos","'Doce silêncio'","Comum no Simbolismo","Efeito sensorial"],
+"Se a frase junta sensações de sentidos distintos, é sinestesia. Não confunda com metáfora simples.",
+"Texto de autoria própria: “O perfume áspero daquela manhã invadia a sala.”",
+"Qual figura de linguagem predomina?",
+["Metonímia.","Sinestesia: mistura de olfato ('perfume') com tato ('áspero').","Hipérbole.","Antítese.","Eufemismo."],
+1,"'Perfume áspero' mistura olfato e tato: é sinestesia. Não é metonímia (A), hipérbole (C), antítese (D) nem eufemismo (E)."
+],
+"Gradação":[
+"A gradação é a apresentação de ideias em escala ascendente ou descendente, criando intensidade. Exemplo: 'Ele chorou, gritou, esperneou, desmaiou.' A sequência intensifica a emoção ou a ação.",
+["Sequência em escala","Ascendente ou descendente","Intensifica a emoção","Também chamada clímax"],
+"'Ele correu, correu, correu até cair' é gradação. A repetição intensifica a ação.",
+"Texto de autoria própria: “O fogo começou pequeno, cresceu, alastrou-se, consumiu tudo.”",
+"Qual figura predomina?",
+["Antítese.","Gradação: sequência que intensifica a ação do fogo.","Paradoxo.","Metonímia.","Ironia."],
+1,"A sequência 'pequeno → cresceu → alastrou → consumiu' intensifica progressivamente a ação. É gradação. Não é antítese (A), paradoxo (C), metonímia (D) nem ironia (E)."
+],
+"Figuras sonoras: aliteração, assonância e onomatopeia":[
+"As figuras sonoras exploram a sonoridade das palavras. Aliteração é a repetição de sons consonantais ('o rato roeu a roupa do rei de Roma'). Assonância é a repetição de sons vocálicos ('a vida é uma loteria'). Onomatopeia é a reprodução de sons naturais por palavras ('tic-tac', 'miau'). São muito usadas na poesia e na publicidade.",
+["Aliteração: repetição de consoantes","Assonância: repetição de vogais","Onomatopeia: imitação de sons","Efeito sonoro expressivo"],
+"Aliteração: consoantes (R, S, M). Assonância: vogais (A, E, O). Onomatopeia: som real (bum, tic-tac).",
+"Texto de autoria própria: “O silvo do vento sussurrava segredos soturnos.”",
+"A repetição do som /s/ no trecho é exemplo de:",
+["Assonância.","Onomatopeia.","Aliteração.","Paronomásia.","Sinestesia."],
+2,"A repetição do som consonantal /s/ ('silvo', 'sussurrava', 'segredos', 'soturnos') é aliteração. Não é assonância (A, que repete vogais), onomatopeia (B, que imita sons), paronomásia (D) nem sinestesia (E)."
+],
+"Classes de palavras":[
+"As dez classes de palavras são: substantivo, artigo, adjetivo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição. Cada uma tem função e comportamento próprios. Substantivos nomeiam; adjetivos caracterizam; verbos indicam ação, estado ou fenômeno; advérbios modificam verbos, adjetivos ou outros advérbios.",
+["Substantivo nomeia","Adjetivo caracteriza","Verbo indica ação, estado, fenômeno","Advérbio modifica","Conjunção e preposição ligam"],
+"Analise a função na frase, não a palavra isolada: 'casa' pode ser substantivo ou verbo ('ele casa amanhã').",
+"Texto de autoria própria: “Amanhã, cedo, os alunos estudiosos farão a prova com calma.”",
+"Na frase, 'cedo' e 'calma' classificam-se, respectivamente, como:",
+["Adjetivo e advérbio.","Advérbio e substantivo.","Advérbio e advérbio.","Substantivo e adjetivo.","Adjetivo e adjetivo."],
+1,"'Cedo' modifica o verbo 'farão' (advérbio de tempo). 'Calma' vem precedido de preposição e artigo ('com a calma'), funcionando como substantivo. As demais combinações erram a classe."
+],
+"Estrutura e formação das palavras":[
+"As palavras são formadas por elementos mórficos: radical (base do significado), prefixo (antes do radical), sufixo (depois do radical), desinências (indicam flexões) e vogal temática. Os processos de formação incluem derivação (prefixal, sufixal, parassintética, regressiva, imprópria) e composição (justaposição e aglutinação).",
+["Radical: base do significado","Prefixos e sufixos","Derivação e composição","Palavras primitivas e derivadas"],
+"'Infelizmente' = in- (prefixo) + feliz (radical) + -mente (sufixo). É derivação prefixal e sufixal.",
+"Texto de autoria própria: “A infelicidade daquela deslealdade era evidente.”",
+"A palavra 'deslealdade' foi formada por:",
+["Composição por justaposição.","Derivação prefixal e sufixal.","Derivação regressiva.","Composição por aglutinação.","Onomatopeia."],
+1,"'Deslealdade' = des- (prefixo) + leal (radical) + -dade (sufixo). É derivação prefixal e sufixal. Não é composição (A, D), derivação regressiva (C) nem onomatopeia (E)."
+],
+"Sujeito e predicado":[
+"O sujeito é o termo sobre o qual se declara algo; o predicado é o que se declara. O sujeito pode ser simples, composto, oculto (implícito), indeterminado ou inexistente. O predicado pode ser verbal, nominal ou verbo-nominal. Reconhecer o sujeito é o primeiro passo para a concordância.",
+["Sujeito: sobre quem se declara","Predicado: o que se declara","Simples, composto, oculto, indeterminado, inexistente","Predicado verbal, nominal, verbo-nominal"],
+"Em 'Havia muitos alunos', o verbo 'haver' (no sentido de existir) é impessoal: não há sujeito.",
+"Texto de autoria própria: “Choveu forte durante toda a madrugada.”",
+"Quanto ao sujeito, é correto afirmar:",
+["É simples: 'forte'.","É indeterminado.","O verbo 'chover' é impessoal; a oração não tem sujeito.","É oculto: 'ele'.","É composto."],
+2,"Verbos que indicam fenômenos da natureza (chover, nevar, ventar), no sentido literal, são impessoais: a oração não tem sujeito. As demais alternativas forçam um sujeito inexistente."
+],
+"Vozes verbais":[
+"As vozes verbais indicam a relação entre o sujeito e a ação. Voz ativa: o sujeito pratica a ação. Voz passiva: o sujeito sofre a ação. Voz reflexiva: o sujeito pratica e sofre a ação. A passiva pode ser analítica (ser + particípio) ou sintética (verbo + se).",
+["Ativa: sujeito agente","Passiva: sujeito paciente","Reflexiva: sujeito agente e paciente","Passiva analítica e sintética"],
+"Na passiva analítica, o agente pode ser introduzido por 'por'. Na sintética, usa-se 'se' apassivador.",
+"Texto de autoria própria: “A ponte foi construída pelos engenheiros.”",
+"Na frase, a voz verbal é:",
+["Ativa.","Passiva analítica.","Reflexiva.","Passiva sintética.","Neutra."],
+1,"'Foi construída' é locução passiva analítica (ser + particípio), e 'pelos engenheiros' é o agente da passiva. Não é ativa (A), reflexiva (C) nem passiva sintética (D)."
+],
+"Período composto por coordenação":[
+"No período composto por coordenação, as orações são independentes entre si, ligadas por conjunções coordenativas ou justapostas. Classificam-se em aditivas, adversativas, alternativas, conclusivas e explicativas. Cada oração tem sentido próprio.",
+["Orações independentes","Aditivas, adversativas, alternativas","Conclusivas e explicativas","Conjunções coordenativas"],
+"'Estudou muito, mas não passou': coordenada adversativa. 'Estudou muito, portanto passou': conclusiva.",
+"Texto de autoria própria: “Ele estudou muito, portanto foi aprovado.”",
+"A oração destacada é coordenada:",
+["Aditiva.","Adversativa.","Conclusiva.","Alternativa.","Explicativa."],
+2,"'Portanto' introduz conclusão: oração coordenada conclusiva. Não é aditiva (A), adversativa (B), alternativa (D) nem explicativa (E)."
+],
+"Período composto por subordinação":[
+"No período composto por subordinação, uma oração exerce função sintática de outra: substantiva, adjetiva ou adverbial. As subordinadas substantivas completam o sentido da principal; as adjetivas caracterizam um termo; as adverbiais indicam circunstâncias.",
+["Orações dependentes","Substantivas, adjetivas, adverbiais","Função sintática","Conjunções subordinativas"],
+"'Espero que você venha' — subordinada substantiva objetiva direta. 'O livro que li é bom' — subordinada adjetiva restritiva.",
+"Texto de autoria própria: “Quando o sol nasceu, os pássaros cantaram.”",
+"A oração 'Quando o sol nasceu' é subordinada adverbial:",
+["Causal.","Temporal.","Condicional.","Consecutiva.","Final."],
+1,"'Quando' introduz circunstância de tempo: subordinada adverbial temporal. Não é causal (A), condicional (C), consecutiva (D) nem final (E)."
+],
+"Concordância verbal e nominal":[
+"Concordância verbal é a harmonia entre o verbo e o sujeito em número e pessoa. Concordância nominal é a harmonia entre o substantivo e seus determinantes (artigo, adjetivo, pronome, numeral) em gênero e número. Casos especiais: 'haver' impessoal, 'fazer' indicando tempo, sujeito coletivo, expressões partitivas.",
+["Verbo concorda com o sujeito","Adjetivo concorda com o substantivo","'Haver' (existir) é impessoal","Casos especiais exigem atenção"],
+"'Faz dez anos' (não 'fazem'). 'Havia muitas pessoas' (não 'haviam').",
+"Texto de autoria própria: “______ dez anos que ele partiu. ______ muitas saudades naquela casa.”",
+"Preenchem corretamente as lacunas:",
+["Fazem / Haviam","Faz / Havia","Fazem / Havia","Faz / Haviam","Faz / Havia"],
+1,"'Fazer' indicando tempo decorrido é impessoal: 'Faz dez anos'. 'Haver' no sentido de existir é impessoal: 'Havia muitas saudades'. As formas no plural estão incorretas nesses usos."
+],
+"Regência, crase e colocação pronominal":[
+"Regência é a relação de dependência entre um termo e seu complemento ('assistir ao filme', 'preferir A a B'). Crase é a fusão de 'a' (preposição) + 'a' (artigo ou pronome demonstrativo), marcada por acento grave. Colocação pronominal trata da posição dos pronomes oblíquos átonos: próclise, mesóclise e ênclise.",
+["Regência: relação verbo/nome e complemento","Crase: 'a' + 'a'","Próclise, mesóclise, ênclise","Palavras atrativas exigem próclise"],
+"'Assistir' no sentido de ver pede preposição: 'assisti ao filme'. 'Aspirar' no sentido de desejar também: 'aspiro ao cargo'.",
+"Texto de autoria própria: “Entreguei o livro ______ professora e pedi que ela ______ devolvesse amanhã.”",
+"Preenchem corretamente:",
+["a / me","à / me","à / mim","a / mim","há / me"],
+1,"'Entreguei o livro à professora' (crase: a + a). 'Pedi que ela me devolvesse' (próclise, pois 'que' é palavra atrativa). As demais formas erram crase e colocação pronominal."
+],
+"Vírgula: usos e efeitos de sentido":[
+"A vírgula marca pausas e separa termos, mas não é livre: ela obedece a funções sintáticas. Usa-se para separar itens de enumeração, isolar aposto e vocativo, separar orações coordenadas, isolar expressões explicativas e deslocadas. Nunca se separa sujeito de predicado nem verbo de complemento.",
+["Separa itens","Isola aposto e vocativo","Separa coordenadas","Isola termos deslocados","Não separa sujeito de predicado"],
+"Vírgula não é 'respiro': a mudança de lugar pode mudar o sentido: 'Só ele, disse o chefe' ≠ 'Só ele disse o chefe'.",
+"Texto de autoria própria: “Maria, minha amiga de infância, chegou ontem de Lisboa.”",
+"As duas vírgulas no trecho:",
+["Separaram sujeito e predicado, o que é incorreto.","Isolam o aposto explicativo 'minha amiga de infância', o que é correto.","Marcam pausa de leitura, sem função sintática.","Indicam enumeração.","Separam o verbo do complemento."],
+1,"O trecho 'minha amiga de infância' é aposto explicativo, e vem isolado por vírgulas. Está correto. As demais alternativas atribuem funções equivocadas ao sinal."
+],
+"Ponto e vírgula, dois-pontos e travessão":[
+"Ponto e vírgula separa itens extensos ou orações coordenadas longas, marcando pausa maior que a vírgula. Dois-pontos introduzem enumeração, explicação, fala ou citação. Travessão isola termos ou introduz a fala em diálogos, em substituição às vírgulas ou parênteses.",
+["Ponto e vírgula: pausa intermediária","Dois-pontos: anúncio, explicação, fala","Travessão: diálogo, destaque","Substituem outros sinais com nuances"],
+"A escolha entre vírgula, ponto e vírgula e travessão depende da ênfase e da extensão das unidades.",
+"Texto de autoria própria: “Trouxe três coisas essenciais: disposição, tempo e coragem.”",
+"Os dois-pontos, no trecho, introduzem:",
+["Uma fala de personagem.","Uma enumeração explicativa.","Uma citação.","Uma oposição.","Uma consequência."],
+1,"'Três coisas essenciais' é anunciado e, em seguida, enumerado (disposição, tempo, coragem). Os dois-pontos introduzem enumeração explicativa. Não há fala (A), citação (C), oposição (D) nem consequência (E)."
+],
+"Acentuação gráfica":[
+"A acentuação gráfica segue regras baseadas na posição da sílaba tônica e na terminação das palavras. Oxítonas terminadas em a, e, o, em, ens são acentuadas; paroxítonas terminadas em i, us, um, uns, l, n, r, x, ã, ãs, ão, ãos, ps são acentuadas; proparoxítonas são todas acentuadas. O Acordo de 1990 eliminou o trema e alguns acentos diferenciais.",
+["Oxítonas, paroxítonas, proparoxítonas","Regras por terminação","Trema abolido","Acento diferencial reduzido"],
+"'Ideia' e 'assembleia' não têm mais acento. 'Pôde' (passado) mantém; 'pode' (presente) não.",
+"Texto de autoria própria: “Ele ______ ontem, mas hoje não ______ mais.”",
+"Preenchem corretamente:",
+["pode / pôde","pôde / pode","pôde / pôde","pode / pode","pôde / pôdi"],
+1,"'Pôde' (pretérito) leva acento; 'pode' (presente) não. A sequência correta é 'pôde' / 'pode'. As demais trocam os tempos ou inventam formas."
+],
+"Hífen":[
+"O hífen é usado em palavras compostas, em prefixos com hífen obrigatório (ex-, vice-, sem-, além-, aquém-, recém-), em compostos com 'bem' e 'mal' quando formam unidade de sentido, e em encadeamentos vocabulares. O Acordo de 1990 fixou novas regras.",
+["Prefixos com hífen: ex-, vice-, sem-","Compostos com 'bem' e 'mal'","Encadeamentos: ponte Rio-Niterói","Regras do Acordo de 1990"],
+"'Ex-presidente' tem hífen; 'excepcional' não. 'Bem-vindo' tem hífen; 'benfeitor' não.",
+"Texto de autoria própria: “O ______ presidente participou da ______-feira.”",
+"Preenchem corretamente:",
+["ex / feira","ex- / feira","ex- / feira","ex / feira","ex- / feira"],
+1,"'Ex-presidente' leva hífen (prefixo ex-). 'Feira' não leva hífen quando isolada. A forma correta é 'ex-' e 'feira' sem hífen."
+],
+"Relações de sentido entre palavras":[
+"Sinônimos têm sentidos próximos (casa/moradia). Antônimos, sentidos opostos (alto/baixo). Homônimos têm mesma forma e sentidos diferentes (cela/sela, mas com grafias distintas — homófonos). Parônimos são parecidos na forma, mas diferentes no sentido (concerto/conserto). O contexto define qual usar.",
+["Sinônimos: sentidos próximos","Antônimos: sentidos opostos","Homônimos: mesma forma (ou som)","Parônimos: parecidos, sentidos diferentes"],
+"'Concerto' é apresentação musical; 'conserto' é reparo. 'Cela' é cubículo; 'sela' é cavalgar. O contexto ajuda a distinguir.",
+"Texto de autoria própria: “Ele ______ a bicicleta antes da ______ da orquestra.”",
+"Preenchem corretamente:",
+["concerto / conserto","consertou / concerto","conserto / concerto","concertou / conserto","concerto / concerto"],
+1,"'Consertou' (verbo consertar, reparar) e 'concerto' (apresentação musical) são parônimos com sentidos distintos. As demais combinações trocam as formas."
+],
+"Acordo Ortográfico de 1990":[
+"O Acordo Ortográfico de 1990, em vigor no Brasil desde 2009, unificou a ortografia do português nos países lusófonos. Principais mudanças: fim do trema ('linguiça', não 'lingüiça'); perda do acento diferencial em 'pára' (verbo), 'pêlo' (substantivo) etc.; 'ideia', 'assembleia' sem acento; 'voo', 'enjoo' sem acento; 'frequente' mantém 'qu' sem trema.",
+["Fim do trema","'Ideia', 'assembleia', 'heroico' sem acento","'Voo', 'enjoo', 'creem' sem acento","'Pára' (verbo) perde acento"],
+"Cuidado: 'pôr' (verbo) mantém o acento diferencial; 'pode' (presente) e 'pôde' (passado) mantêm. 'Pôr' se distingue de 'por' (preposição).",
+"Texto de autoria própria: “Ele ______ o livro na estante e disse que ______ vir amanhã.”",
+"Preenchem corretamente:",
+["pôs / pode","pôs / pôde","pós / pôde","pôs / pôdi","pois / pôde"],
+1,"'Pôs' (verbo pôr no pretérito) leva acento. 'Pôde' (verbo poder no passado) também. As demais formas estão incorretas."
+],
+"Letra e fonema":[
+"Letra é a representação gráfica do som; fonema é a menor unidade sonora da língua. Nem sempre há correspondência exata: uma letra pode representar vários fonemas (a letra 'x' em 'xícara', 'exame', 'máximo') e um fonema pode ser representado por várias letras ('ss', 's', 'ç', 'x' com som de /s/). Os encontros consonantais e dígrafos também são estudados aqui.",
+["Letra ≠ fonema","Uma letra pode ter vários sons","Um som pode ter várias letras","Dígrafos: duas letras, um som"],
+"'Ch' em 'chave' é dígrafo: duas letras, um fonema. 'X' em 'táxi' tem som de /ks/.",
+"Texto de autoria própria: “O ______ da questão estava no ______ do problema.”",
+"Preenchem corretamente, considerando o contexto:",
+["x / x","s / ss","ç / s","x / ch","z / s"],
+1,"A questão pede a grafia correta: 'O cerne da questão' (com 'c') e 'o âmago do problema' (com 'g'). As alternativas testam a confusão entre letras e sons, mas a grafia correta exige o conhecimento das palavras."
+],
+"Adequação vocabular":[
+"A adequação vocabular consiste em escolher a palavra certa para o contexto, considerando o registro (formal/informal), o interlocutor e a situação comunicativa. Palavras sinônimas podem ter nuances de sentido diferentes ('casa' e 'lar' têm conotações distintas). O ENEM cobra essa adequação em textos que exigem precisão lexical.",
+["Escolha lexical depende do contexto","Registro formal × informal","Sinônimos têm nuances diferentes","Precisão vocabular"],
+"'Moradia' é mais formal que 'casa'. 'Falecer' é mais solene que 'morrer'. A escolha depende da situação.",
+"Texto de autoria própria: “No relatório técnico, o engenheiro escreveu: 'A estrutura está ______ e precisa de reparos urgentes.'”",
+"A palavra mais adequada ao registro formal é:",
+["meio capenga","torta","danificada","meio zoada","arrepiada"],
+2,"Em um relatório técnico, o registro é formal. 'Danificada' é a opção adequada. 'Meio capenga', 'torta', 'meio zoada' e 'arrepiada' são informais ou inadequadas ao contexto."
+],
+"Citação, alusão e epígrafe":[
+"Citação é a reprodução literal de um trecho, com indicação de autor e obra. Alusão é a referência indireta, sem reprodução literal. Epígrafe é a citação que abre uma obra ou capítulo, como chave de leitura. Todas são formas de intertextualidade.",
+["Citação: reprodução literal","Alusão: referência indireta","Epígrafe: citação de abertura","Todas são intertextuais"],
+"Citação é direta (aspas, autor, obra). Alusão é indireta, exige do leitor o conhecimento prévio.",
+"Texto de autoria própria: “O romance abre com uma epígrafe de Machado de Assis: 'Ao vencedor, as batatas!'. Ao longo da narrativa, o narrador alude à 'Canção do Exílio', sem citá-la literalmente.”",
+"No trecho, identifica-se, respectivamente, epígrafe e:",
+["Citação direta.","Paráfrase.","Alusão.","Plágio.","Paródia."],
+2,"A referência sem citação literal à 'Canção do Exílio' é alusão. Epígrafe é a citação de abertura. Não há paráfrase (B), plágio (D) nem paródia (E) necessariamente."
+],
+"Paráfrase":[
+"Paráfrase é a reescritura de um texto com outras palavras, mantendo o sentido essencial. Não confunda com paródia (que subverte o sentido, com efeito crítico ou humorístico) nem com plágio (que copia sem crédito). A paráfrase exige fidelidade ao conteúdo.",
+["Reescritura com outras palavras","Mantém o sentido","Paráfrase ≠ paródia ≠ plágio","Exige fidelidade"],
+"A paráfrase respeita o original; a paródia o subverte. Identifique a intenção.",
+"Texto original (adaptado): “O tempo é senhor de tudo: apaga mágoas, cura feridas e desfaz ilusões.” Paráfrase proposta: “Todas as coisas se submetem ao tempo, que atenua dores, sara feridas e desfaz enganos.”",
+"A paráfrase:",
+["Mantém o sentido essencial do texto original, com outras palavras.","Subverte o sentido original, com humor.","Copia literalmente o texto.","Introduz informação nova não presente no original.","Nega o texto original."],
+0,"A paráfrase reformula o original mantendo o sentido. Não é paródia (B), cópia (C), acréscimo (D) nem negação (E)."
+],
+"Paródia e estilização":[
+"Paródia é a retomada de um texto com subversão do sentido, geralmente com efeito crítico ou humorístico. Estilização é a retomada do estilo de um autor ou movimento, sem subverter o sentido. Ambas são formas de intertextualidade, mas com intenções diferentes.",
+["Paródia: subverte o sentido","Estilização: imita o estilo","Paródia critica; estilização homenageia","Ambas retomam o texto-fonte"],
+"Paródia = subversão. Estilização = homenagem formal. Se há crítica, é paródia.",
+"Texto original: 'Minha terra tem palmeiras, / Onde canta o Sabiá'. Paródia: 'Minha terra tem palmeiras, / Onde o asfalto cobriu tudo'.",
+"O segundo texto é:",
+["Cópia do original.","Paráfrase do original.","Paródia: retoma o original e subverte o sentido, com crítica à urbanização.","Estilização sem subversão.","Alusão apenas."],
+2,"A retomada de 'Canção do Exílio' com inversão crítica (asfalto cobriu) caracteriza paródia. Não é cópia (A), paráfrase (B), estilização neutra (D) nem mera alusão (E)."
+],
+"Discurso direto, indireto e polifonia":[
+"Discurso direto reproduz a fala do personagem entre aspas ou travessões. Discurso indireto a transpõe para a voz do narrador. Discurso indireto livre mistura as duas vozes, sem marcas explícitas. Polifonia é a presença de várias vozes no texto, como em romances e textos argumentativos que dão lugar a diferentes perspectivas.",
+["Direto: fala entre aspas ou travessões","Indireto: narrador transpõe","Indireto livre: vozes se fundem","Polifonia: várias vozes"],
+"Discurso direto: marcas explícitas (aspas, travessões). Indireto livre: o leitor percebe o pensamento do personagem sem marcadores.",
+"Texto de autoria própria: “João pensou: 'Não vou desistir'. Mais tarde, disse ao amigo que não desistiria. Aquela teimosia, porém, era dele, do narrador, do leitor, de todos os teimosos do mundo.”",
+"Há, no trecho, respectivamente:",
+["Discurso direto, indireto e indireto livre.","Discurso indireto apenas.","Discurso direto apenas.","Discurso indireto livre apenas.","Nenhum tipo de discurso."],
+0,"'Não vou desistir' é discurso direto; 'disse ao amigo que não desistiria' é indireto; 'Aquela teimosia... de todos os teimosos' mistura vozes, configurando indireto livre. As demais alternativas reduzem o trecho a um só tipo."
+],
+"Verbal, não verbal e multimodal":[
+"Linguagem verbal usa palavras; não verbal usa imagens, sons, gestos, cores. Multimodalidade é a combinação das duas (ou mais) em um mesmo texto: charges, tirinhas, anúncios, infográficos, vídeos. Nos textos multimodais, o sentido emerge da articulação entre as linguagens.",
+["Verbal: palavra","Não verbal: imagem, som, gesto","Multimodal: combina linguagens","Sentido emerge da articulação"],
+"Em uma charge, a crítica pode estar só na imagem, só no texto ou na combinação. Leia sempre os dois.",
+"Descrição de anúncio (adaptado): Sobre a foto de um rio poluído, lê-se: “Um brinde ao futuro.”",
+"O anúncio é multimodal porque:",
+["Usa apenas palavras.","Usa apenas imagens.","Combina imagem (rio poluído) e texto verbal ('um brinde ao futuro'), gerando crítica pela ironia entre eles.","É composto por sons.","É um texto apenas argumentativo."],
+2,"A imagem (poluição) e o texto ('um brinde ao futuro') produzem sentido conjunto, por contraste irônico. Não é só verbal (A) nem só visual (B), nem sonoro (D) nem só argumentativo (E)."
+],
+"Leitura de charges e tirinhas":[
+"Charges e tirinhas combinam imagem e texto e exigem leitura em camadas: contexto histórico, personagens, crítica, humor. A charge tende à crítica política ou social atual; a tirinha, ao humor cotidiano com personagens fixos. Reconhecer a quebra de expectativa é essencial.",
+["Charge: crítica atual","Tirinha: humor cotidiano","Leitura: imagem + texto + contexto","Quebra de expectativa = humor"],
+"Sem contexto, a charge perde sentido. Identifique o fato do momento representado.",
+"Descrição de charge (adaptada): Um político discursa em um pódio; ao fundo, um cartaz diz 'Mais educação'. Nos pés do pódio, uma placa caída: 'Cortes na educação'.",
+"A crítica da charge se constrói:",
+["Pela informação verídica que ela apresenta.","Pelo contraste entre o discurso do político e a realidade denunciada pelos elementos visuais.","Pelo elogio à gestão pública.","Pela defesa de aumento de impostos.","Pela ausência de ironia."],
+1,"O contraste entre o cartaz de campanha e a placa de cortes denuncia a contradição. É crítica social. Não é elogio (C), nem defesa tributária (D), nem ausência de ironia (E)."
+],
+"Infográficos, gráficos e tabelas":[
+"Infográficos, gráficos e tabelas organizam dados para facilitar a leitura. Gráficos de barras comparam categorias; de linhas, mostram evolução; de pizza, proporções. Tabelas cruzam variáveis. A leitura exige identificar título, fonte, eixos, unidades e a mensagem central.",
+["Título, fonte, eixos","Barras: categorias","Linhas: evolução","Pizza: proporções","Tabela: cruza dados"],
+"Antes de interpretar, leia título, eixos e unidades. Muitos erros vêm da leitura apressada.",
+"Descrição de gráfico (adaptado, dados fictícios): Gráfico de linhas mostra queda do analfabetismo no Brasil entre 2000 e 2020, com inclinação mais acentuada entre 2000 e 2010.",
+"Sobre o gráfico, é correto afirmar:",
+["O analfabetismo aumentou no período.","O analfabetismo caiu, com queda mais acentuada entre 2000 e 2010.","O gráfico mostra dados de vários países.","O gráfico trata de analfabetismo funcional apenas.","O gráfico mostra estabilidade total no período."],
+1,"A leitura do gráfico de linhas mostra queda do analfabetismo, com maior inclinação em 2000-2010. As demais alternativas contradizem a descrição."
+],
+"Linguagem corporal":[
+"A linguagem corporal é um sistema de comunicação não verbal que inclui gestos, postura, expressões faciais, olhar e distância entre interlocutores. Complementa, contradiz ou substitui a linguagem verbal. No ENEM, pode aparecer em questões sobre comunicação, diversidade cultural e arte.",
+["Gestos, postura, olhar","Complementa ou substitui a fala","Varia entre culturas","Não verbal"],
+"Um gesto pode ter significados diferentes em culturas distintas. Não julgue como universal.",
+"Texto de autoria própria (adaptado): “Em algumas culturas, olhar nos olhos do interlocutor demonstra sinceridade; em outras, é sinal de desrespeito. O corpo fala, mas seu idioma varia.”",
+"O trecho trata de:",
+["Linguagem verbal.","Linguagem corporal e sua variação cultural.","Língua estrangeira.","Gramática normativa.","Literatura."],
+1,"O texto discute gestos e olhar (linguagem corporal) e sua variação entre culturas. Não é linguagem verbal (A), língua estrangeira (C), gramática (D) nem literatura (E)."
+],
+"Artes visuais e leitura de imagem":[
+"A leitura de imagens (pinturas, fotografias, esculturas, grafismos) exige analisar elementos como cor, forma, luz, composição, perspectiva e contexto. No ENEM, imagens são usadas para interpretação, frequentemente combinadas com textos verbais (multimodalidade).",
+["Cor, forma, luz, composição","Contexto histórico","Leitura multimodal","Arte como documento"],
+"Antes de interpretar, descreva o que vê: quem, o quê, onde, cores, expressões. Depois, relacione ao contexto.",
+"Descrição de obra (adaptada): Um quadro mostra uma família à mesa, mas os pratos estão vazios e as expressões são tensas. As cores são escuras, e há uma janela com grades.",
+"Qual leitura é mais coerente?",
+["A obra celebra a união familiar.","A obra sugere escassez e aprisionamento, pelas cores escuras, pratos vazios e grades.","A obra retrata uma festa.","A obra é apenas decorativa, sem sentido.","A obra retrata abundância."],
+1,"Os elementos visuais (pratos vazios, expressões tensas, grades, cores escuras) constroem um sentido de escassez e opressão. Não há celebração (A), festa (C), neutralidade (D) nem abundância (E)."
+],
+"Tese e tipos de argumento":[
+"Tese é a ideia central defendida em um texto argumentativo. Argumentos sustentam a tese: de autoridade (cita especialista), por exemplos (casos concretos), por dados (estatísticas), por comparação, por causa e consequência. Reconhecer o tipo de argumento ajuda a avaliar a solidez do texto.",
+["Tese: ideia defendida","Argumento de autoridade","Argumento por exemplos e dados","Argumento por causa-consequência"],
+"Identifique primeiro a tese; depois, classifique cada argumento. O ENEM cobra muito a distinção entre fato, opinião e argumento.",
+"Texto de autoria própria: “O uso excessivo de telas prejudica o sono dos adolescentes. Segundo a Sociedade Brasileira de Pediatria, a luz azul atrasa a produção de melatonina. Além disso, pesquisas mostram que jovens que usam o celular antes de dormir relatam mais insônia.”",
+"Os argumentos usados são, respectivamente, de:",
+["Exemplo e causa.","Autoridade e dados.","Causa e consequência.","Comparação e exemplo.","Autoridade e comparação."],
+1,"'Segundo a Sociedade Brasileira de Pediatria' é argumento de autoridade; 'pesquisas mostram' é argumento por dados. As demais opções não correspondem à classificação."
+],
+"Argumento de autoridade":[
+"O argumento de autoridade apoia-se na credibilidade de uma fonte: especialista, instituição, pesquisa reconhecida, obra clássica. É forte quando a autoridade é legítima no tema e quando a citação é bem integrada ao raciocínio.",
+["Fonte credenciada","Especialista ou instituição","Citação integrada","Não basta citar: é preciso explicar"],
+"Não confunda 'fulano disse' (falácia de autoridade) com argumento de autoridade legítimo, quando a fonte é competente no assunto.",
+"Texto de autoria própria: “Segundo a Organização Mundial da Saúde, a poluição do ar causa milhões de mortes prematuras por ano. O dado evidencia a urgência de políticas ambientais.”",
+"O argumento é de:",
+["Exemplo.","Autoridade.","Causa e consequência.","Comparação.","Falácia."],
+1,"A OMS é instituição reconhecida no tema: argumento de autoridade. Não é exemplo (A), causa/consequência (C), comparação (D) nem falácia (E)."
+],
+"Argumento por causa e consequência":[
+"O argumento por causa e consequência estabelece uma relação causal entre fatos: se X ocorre, Y decorre. É muito usado em textos científicos e jornalísticos, mas exige cuidado para não confundir correlação com causalidade.",
+["Relação causa → efeito","Cuidado com correlação ≠ causalidade","Comum em textos científicos","Pode ser refutado"],
+"'O aumento do desmatamento provocou a queda da biodiversidade' é causa-consequência. 'Choveu e o time perdeu' pode ser mera coincidência.",
+"Texto de autoria própria: “A falta de saneamento básico aumenta a incidência de doenças. Por isso, investir em esgoto é investir em saúde.”",
+"O argumento é de:",
+["Autoridade.","Exemplo.","Causa e consequência.","Comparação.","Falácia."],
+2,"A relação 'falta de saneamento → aumento de doenças' é causal. Trata-se de argumento por causa e consequência. Não é autoridade (A), exemplo (B), comparação (D) nem falácia (E)."
+],
+"Contra-argumento e falácias":[
+"Contra-argumento é a objeção à tese ou a um argumento, que pode ser refutada. Falácia é um raciocínio inválido que parece correto: generalização apressada, apelo à emoção, ataque à pessoa (ad hominem), falsa causa, falsa dicotomia. Reconhecer falácias é fundamental para uma leitura crítica.",
+["Contra-argumento: objeção","Falácia: raciocínio inválido","Ad hominem: ataque à pessoa","Falsa dicotomia: só duas opções","Generalização apressada"],
+"Nem todo argumento forte é válido: verifique se a conclusão decorre das premissas.",
+"Texto de autoria própria: “Não se pode confiar nas pesquisas desse cientista sobre vacinas: afinal, ele é muito vaidoso.”",
+"O argumento é falacioso porque:",
+["Apresenta dados verificáveis.","Ataca a pessoa, não o argumento (ad hominem).","Usa argumento de autoridade.","Apresenta contra-argumento válido.","Apela à compaixão."],
+1,"A vaidade do cientista não tem relação com a validade das pesquisas. É falácia ad hominem. Não há dados (A), autoridade (C), contra-argumento (D) nem apelo à compaixão (E)."
+],
+"Ethos, pathos e logos":[
+"Ethos, pathos e logos são as três dimensões da persuasão, segundo Aristóteles. Ethos: credibilidade do orador. Pathos: apelo às emoções do público. Logos: apelo à razão, por meio de dados e argumentos. Os três operam simultaneamente, com pesos variáveis.",
+["Ethos: credibilidade","Pathos: emoção","Logos: razão, dados","Combinam-se"],
+"Se o texto emociona, é pathos. Se convence pela lógica e dados, é logos. Se valoriza o caráter do orador, é ethos.",
+"Texto de autoria própria: “Como médico com 30 anos de experiência em pediatria, afirmo: as vacinas salvam vidas. Os dados oficiais comprovam a queda da mortalidade infantil onde a cobertura vacinal é alta.”",
+"Identificam-se, respectivamente:",
+["Logos, pathos e ethos.","Ethos, logos e pathos.","Ethos, pathos e logos.","Ethos e logos.","Pathos apenas."],
+3,"A credibilidade do médico (ethos) aparece na primeira parte; os dados oficiais configuram logos. Não há apelo direto à emoção (pathos) no trecho."
+],
+"Modalizadores":[
+"Modalizadores são palavras ou expressões que revelam a atitude do falante em relação ao que diz: certeza ('é evidente que'), dúvida ('talvez'), obrigação ('é preciso'), avaliação ('felizmente'). São marcas da subjetividade e orientam a interpretação do leitor.",
+["Certeza: 'é evidente que'","Dúvida: 'talvez'","Obrigação: 'é preciso'","Avaliação: 'felizmente'"],
+"Reconheça o modalizador para identificar a atitude do autor: certeza, dúvida, apreciação.",
+"Texto de autoria própria: “É evidente que a educação deve ser prioridade. Talvez, porém, falte vontade política.”",
+"Os modalizadores 'é evidente' e 'talvez' expressam, respectivamente:",
+["Dúvida e certeza.","Certeza e dúvida.","Obrigação e avaliação.","Avaliação e obrigação.","Certeza e obrigação."],
+1,"'É evidente' marca certeza; 'talvez' marca dúvida. As demais combinações trocam os valores."
+],
+"Hipertexto e gêneros digitais":[
+"Hipertexto é o texto digital que se ramifica por links, permitindo múltiplos percursos de leitura. Gêneros digitais surgem nesse ambiente: e-mail, post, meme, tweet, stories, comentário. A leitura em tela é não linear, colaborativa e multimodal.",
+["Hipertexto: links, leitura não linear","Gêneros digitais: e-mail, post, meme","Multimodalidade e colaboração","Leitura em tela ≠ leitura impressa"],
+"O hipertexto não tem leitura única: cada leitor constrói seu percurso. Isso não significa ausência de autor, mas nova forma de organização.",
+"Texto de autoria própria: “Ao ler uma notícia na internet, o leitor pode clicar em links, assistir a vídeos, conferir dados em outras páginas e voltar. A leitura deixa de ser linear e passa a ser uma construção.”",
+"O trecho trata de:",
+["Leitura linear de romance impresso.","Hipertexto e leitura não linear na internet.","Produção de texto argumentativo escolar.","Rádio e televisão apenas.","Jornal impresso do século XX."],
+1,"A possibilidade de clicar em links, assistir a vídeos e construir percursos caracteriza o hipertexto. Não é leitura linear (A) nem produção escolar (C), rádio (D) nem jornal impresso (E)."
+],
+"Memes e redes sociais":[
+"Memes são unidades culturais que se propagam pela internet, geralmente com humor e crítica, combinando imagem e texto. Nas redes sociais, a linguagem é marcada por informalidade, hashtags, emojis, abreviações e interação rápida. A leitura exige reconhecer ironia, polissemia e referências culturais.",
+["Meme: humor, crítica, propagação","Redes sociais: informalidade","Hashtags, emojis, abreviações","Leitura depende do repertório"],
+"Memes não são só humor: podem fazer crítica social e política. Identifique a referência.",
+"Texto de autoria própria (adaptado): Meme com imagem de um gato digitando e a legenda: “eu, fingindo que entendo a explicação do professor”.",
+"O efeito de humor do meme se apoia:",
+["Na fofura do gato.","Na identificação do leitor com a situação representada (fingir entender algo).","Na informação objetiva.","Na crítica a professores.","No uso de linguagem formal."],
+1,"O humor vem da identificação do usuário com a cena (fingir entender). Não é fofura (A), informação (C), crítica aos professores (D) nem linguagem formal (E)."
+],
+"Fake news e checagem de informação":[
+"Fake news são informações falsas ou distorcidas que circulam, sobretudo em redes sociais, com aparência de notícia. Combatê-las exige checar fonte, data, autor, contexto e buscar a informação em veículos confiáveis. A leitura crítica de textos digitais é uma habilidade essencial do letramento contemporâneo.",
+["Informação falsa com aparência de notícia","Checar fonte, data, autor, contexto","Aparência de credibilidade","Letramento digital crítico"],
+"Desconfie de manchetes sensacionalistas, ausência de autoria, erros de português e apelos emocionais. Cheque antes de compartilhar.",
+"Texto de autoria própria (adaptado): “Uma mensagem viral afirma que 'um novo estudo comprova que comer X emagrece 10 kg em uma semana'. O texto não cita autores, revista nem instituição. A imagem é de banco de imagens.”",
+"O sinal que mais indica que a mensagem pode ser fake news é:",
+["Uso de linguagem popular.","Ausência de fonte verificável (autores, revista, instituição).","Presença de imagem.","Uso de maiúsculas.","Menção a 'estudo'."],
+1,"A ausência de fonte verificável é um dos principais indicadores de fake news. Os demais itens são comuns em textos legítimos e não indicam falsidade por si."
+],
+"Letramento digital":[
+"O letramento digital é a capacidade de usar criticamente as tecnologias digitais para ler, escrever, buscar, avaliar e produzir informações. Envolve não só habilidades técnicas, mas também ética, segurança e pensamento crítico diante de conteúdos online.",
+["Uso crítico da tecnologia","Busca, avaliação e produção","Ética e segurança","Não é só saber usar aparelhos"],
+"Um letrado digital sabe distinguir fonte confiável de fake news, proteger dados e participar de forma ética nas redes.",
+"Texto de autoria própria: “Não basta saber usar o celular: é preciso avaliar a credibilidade das informações, respeitar a privacidade alheia e produzir conteúdo com responsabilidade. Isso é letramento digital.”",
+"O trecho define:",
+["Alfabetização.","Letramento digital.","Letramento literário.","Gramática normativa.","Fluência verbal."],
+1,"O texto descreve o uso crítico, ético e produtivo das tecnologias digitais: letramento digital. Não é alfabetização (A), letramento literário (C), gramática (D) nem fluência verbal (E)."
+],
+"As cinco competências":[
+"A redação do ENEM é avaliada em cinco competências, cada uma valendo 200 pontos (total 1 000): (1) domínio da norma-padrão; (2) compreensão do tema e não tangenciamento; (3) seleção e organização de argumentos; (4) coesão e coerência; (5) proposta de intervenção. Cada uma tem critérios próprios.",
+["C1: norma-padrão","C2: tema e repertório","C3: argumentação","C4: coesão e coerência","C5: proposta de intervenção"],
+"Zerar qualquer competência não zera a redação, mas compromete muito a nota. Fuga ao tema, no entanto, zera a redação inteira.",
+"Texto de autoria própria (adaptado): “A prova de redação do ENEM avalia cinco competências, cada uma valendo 200 pontos. A competência 1 verifica o domínio da norma-padrão; a 5, a proposta de intervenção com cinco elementos.”",
+"Sobre as cinco competências, é correto afirmar:",
+["São três competências.","São cinco competências, cada uma valendo 200 pontos, totalizando 1 000.","Cada competência vale 100 pontos.","Apenas a competência 1 importa.","A redação é avaliada por uma única competência."],
+1,"São cinco competências, 200 pontos cada, total 1 000. As demais alternativas erram o número, a pontuação ou a estrutura."
+],
+"Competência 1: norma-padrão":[
+"A Competência 1 da redação do ENEM avalia o domínio da modalidade escrita formal da língua portuguesa: ortografia, acentuação, pontuação, concordância, regência, crase, colocação pronominal. Desvios recorrentes reduzem a nota.",
+["Ortografia e acentuação","Concordância e regência","Pontuação","Crase e colocação pronominal"],
+"Releia a redação procurando especificamente erros de norma-padrão. Uma revisão focada evita perda de pontos.",
+"Texto de autoria própria (adaptado): “A competência 1 avalia o domínio da norma-padrão. Erros de concordância, pontuação e ortografia são desvios que comprometem a nota.”",
+"Sobre a Competência 1, é correto afirmar:",
+["Avalia apenas o conteúdo.","Avalia o domínio da norma-padrão escrita.","Avalia a proposta de intervenção.","Avalia a coesão.","Avalia a argumentação."],
+1,"A Competência 1 é específica para o domínio da norma-padrão escrita. As demais competências cuidam de conteúdo (2), argumentação (3), coesão (4) e proposta (5)."
+],
+"Competência 2: tema e repertório":[
+"A Competência 2 avalia a compreensão do tema e a mobilização de repertório sociocultural. O candidato não pode fugir do tema nem tangenciá-lo; precisa abordá-lo integralmente e usar conhecimentos externos de forma produtiva.",
+["Compreensão do tema","Não fugir nem tangenciar","Repertório produtivo","Tipo dissertativo-argumentativo"],
+"Tangenciar é abordar o tema de forma superficial ou parcial. Fuga total zera a redação; tangenciamento reduz muito a nota.",
+"Texto de autoria própria (adaptado): “A competência 2 exige que o candidato compreenda o tema e mobilize repertório sociocultural, sem fugir nem tangenciar.”",
+"Sobre a Competência 2, é correto afirmar:",
+["Avalia apenas a norma-padrão.","Avalia a compreensão do tema e o repertório.","Avalia a proposta de intervenção.","Avalia a pontuação.","Avalia a coesão."],
+1,"A Competência 2 trata do tema e do repertório. As demais competências cuidam de norma (1), argumentação (3), coesão (4) e proposta (5)."
+],
+"Competência 3: argumentação":[
+"A Competência 3 avalia a seleção, organização e interpretação de informações, fatos, opiniões e argumentos em defesa de um ponto de vista. O texto precisa ter tese clara, argumentos consistentes e progressão.",
+["Tese clara","Argumentos consistentes","Progressão","Defesa de ponto de vista"],
+"Cada parágrafo de desenvolvimento deve defender um argumento com repertório e análise. Não basta listar ideias.",
+"Texto de autoria própria (adaptado): “A competência 3 avalia a capacidade de selecionar, organizar e interpretar argumentos em defesa de um ponto de vista.”",
+"Sobre a Competência 3, é correto afirmar:",
+["Avalia a norma-padrão.","Avalia a argumentação e a defesa de ponto de vista.","Avalia a proposta de intervenção.","Avalia a ortografia.","Avalia apenas a conclusão."],
+1,"A Competência 3 é sobre argumentação. As demais competências tratam de norma (1), tema (2), coesão (4) e proposta (5)."
+],
+"Competência 4: coesão e coerência":[
+"A Competência 4 avalia o uso de mecanismos linguísticos de coesão e a coerência textual. Isso inclui conectivos, pronomes, repetições controladas, progressão temática, não contradição e adequação ao gênero.",
+["Conectivos adequados","Retomadas pronominais","Progressão temática","Não contradição"],
+"Um texto pode ter coesão e ser incoerente. A competência 4 avalia as duas dimensões em conjunto.",
+"Texto de autoria própria (adaptado): “A competência 4 avalia a coesão (mecanismos linguísticos) e a coerência (sentido global) do texto.”",
+"Sobre a Competência 4, é correto afirmar:",
+["Avalia apenas a norma-padrão.","Avalia coesão e coerência.","Avalia a proposta.","Avalia o repertório.","Avalia a argumentação."],
+1,"A Competência 4 avalia coesão e coerência. As demais competências cuidam de norma (1), tema (2), argumentação (3) e proposta (5)."
+],
+"Competência 5: proposta de intervenção":[
+"A Competência 5 avalia a proposta de intervenção: precisa conter agente, ação, modo/meio, finalidade e detalhamento. Deve ser articulada ao tema e à discussão desenvolvida no texto, respeitando os direitos humanos.",
+["Agente","Ação","Modo/meio","Finalidade","Detalhamento"],
+"A ausência de qualquer dos cinco elementos reduz a nota. O detalhamento é o mais esquecido.",
+"Texto de autoria própria (adaptado): “A competência 5 exige proposta de intervenção com agente, ação, modo, finalidade e detalhamento, respeitando os direitos humanos.”",
+"Sobre a Competência 5, é correto afirmar:",
+["Avalia a norma-padrão.","Avalia a proposta de intervenção com cinco elementos.","Avalia a argumentação.","Avalia a coesão.","Avalia apenas a conclusão."],
+1,"A Competência 5 avalia a proposta de intervenção com os cinco elementos. As demais competências tratam de norma (1), tema (2), argumentação (3) e coesão (4)."
+],
+"Repertório sociocultural":[
+"Repertório sociocultural é o conjunto de conhecimentos que o candidato mobiliza para sustentar a argumentação: dados, citações, obras literárias, filmes, fatos históricos, pesquisas. Precisa ser pertinente ao tema, bem utilizado e produtivo (não basta citar; é preciso explicar a relação).",
+["Dados, citações, obras, fatos","Pertinente ao tema","Produtivo: explicar a relação","Não basta citar"],
+"Repertório 'produtivo' é aquele que avança o argumento. Citar por citar não pontua.",
+"Texto de autoria própria (adaptado): “Ao defender que a educação midiática previne a desinformação, o candidato pode mobilizar dados sobre a circulação de fake news, citações de autores que tratam do tema e episódios históricos.”",
+"Repertório sociocultural produtivo é:",
+["Citação solta sem relação com o argumento.","Conhecimento mobilizado de modo pertinente e explicado, sustentando o argumento.","Apenas dados numéricos.","Apenas citações de filósofos.","Opinião pessoal sem base."],
+1,"Repertório produtivo é aquele que se articula ao argumento e é explicado. Citações soltas (A), dados apenas (C) ou opinião sem base (E) não são considerados produtivos."
+],
+"Desvios que zeram a nota":[
+"Alguns desvios zeram a redação do ENEM: fuga total ao tema, não obediência ao tipo dissertativo-argumentativo, texto com até 7 linhas, cópia dos textos motivadores, impropérios, desrespeito aos direitos humanos, assinatura ou marca identificadora. Esses casos anulam a prova.",
+["Fuga ao tema","Não dissertativo-argumentativo","Até 7 linhas","Cópia dos motivadores","Desrespeito aos direitos humanos"],
+"Não basta escrever bem: é preciso escrever sobre o tema e no tipo solicitado. Fuga ao tema é o erro mais grave.",
+"Texto de autoria própria (adaptado): “A redação do ENEM pode ser zerada por fuga ao tema, desrespeito aos direitos humanos, cópia dos textos motivadores ou texto com até sete linhas.”",
+"Sobre os desvios que zeram a redação, é correto afirmar:",
+["Apenas erros gramaticais zeram.","Fuga ao tema, desrespeito aos direitos humanos, cópia dos motivadores e texto com até sete linhas podem zerar.","Só a cópia zera.","Nenhum desvio zera; a nota é sempre proporcional.","Apenas o desrespeito aos direitos humanos zera."],
+1,"Todos os desvios citados podem zerar a redação. As demais alternativas reduzem a lista indevidamente."
+]
+};
+/* ---------- LÓGICA ---------- */
+const q=s=>document.querySelector(s),L={A:"Alta",M:"Média",B:"Baixa"};
+const IC=["📖","📰","🗣","💬","🏛","🏛","🎭","🔗","🎨","📐","✒️","🔄","🖼","🎯","📱","✍️"];
+let S={fav:{},res:{},wrong:{},sims:[],theme:"",t:0},D={};
+try{Object.assign(S,JSON.parse(localStorage.getItem("ptenem2")||"{}"))}catch(e){}
+try{D=JSON.parse(localStorage.getItem("ptenem")||"{}")||{}}catch(e){}
+const sv=()=>{try{localStorage.setItem("ptenem2",JSON.stringify(S))}catch(e){}},svD=()=>{try{localStorage.setItem("ptenem",JSON.stringify(D))}catch(e){}};
+const SUB=M.map(m=>m.s.split(";").map(x=>{const p=x.split("|");return{n:p[0],l:p[1]}})),FLAT=[];
+SUB.forEach((a,i)=>a.forEach((x,j)=>FLAT.push({i,j,n:x.n,l:x.l})));
+const uniq=a=>{const s={};return a.filter(x=>s[x.n]?0:(s[x.n]=1))},nz=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const pad=n=>String(n).padStart(2,"0"),fmt=s=>(s>=3600?Math.floor(s/3600)+":":"")+pad(Math.floor(s%3600/60))+":"+pad(s%60);
+const shuf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const pr=i=>Math.round(100*SUB[i].filter((x,j)=>D[i+"."+j]).length/SUB[i].length),doneN=()=>Object.keys(D).filter(k=>D[k]).length,favN=()=>Object.keys(S.fav).filter(k=>S.fav[k]).length;
+const ms=i=>{let a=0,e=0;SUB[i].forEach(x=>{const r=S.res[x.n];if(r){a+=r.a;e+=r.e}});return{a,e,t:a+e,p:a+e?Math.round(100*a/(a+e)):0}};
+const bar=p=>`<div class="pb"><i data-w="${p}"></i></div>`,ring=p=>`<div class="rg"><svg viewBox="0 0 120 120"><circle class="r0" cx="60" cy="60" r="52"/><circle class="r1" cx="60" cy="60" r="52" data-ring="${p}"/></svg><b>${p}%</b></div>`;
+const go=p=>{location.hash="#/"+p},bars=()=>requestAnimationFrame(()=>requestAnimationFrame(()=>{document.querySelectorAll("[data-w]").forEach(e=>e.style.width=e.dataset.w+"%");document.querySelectorAll("[data-ring]").forEach(e=>e.style.strokeDashoffset=327-3.27*e.dataset.ring)}));
+function rec(n,ok){const r=S.res[n]||(S.res[n]={a:0,e:0});if(ok){r.a++;delete S.wrong[n]}else{r.e++;S.wrong[n]=1}sv()}
+let view="",cur={i:0,j:0},st={f:"T",qs:"",q:null},Q=null,FC=null,run=false;
+const row=(x,k)=>{const key=x.i+"."+x.j;return`<div class="rw a" style="--i:${k%12}" onclick="go('s/${x.i}/${x.j}')"><span class="nm">${x.j+1}</span><span class="rt">${x.n}<small>${M[x.i].n}</small></span><span class="bd ${x.l}">${L[x.l]}</span>${D[key]?"<em>✓</em>":""}<button class="fv${S.fav[key]?" on":""}" aria-label="Favoritar" onclick="event.stopPropagation();fav(${x.i},${x.j},this)">★</button></div>`};
+function fav(i,j,el){const k=i+"."+j;S.fav[k]=!S.fav[k];sv();el.classList.toggle("on",!!S.fav[k]);if(view=="fv")el.closest(".rw").remove()}
+function tg(i,j,el){const k=i+"."+j;D[k]=D[k]?0:1;svD();el.classList.toggle("on",!!D[k]);el.textContent=D[k]?"✓ Concluído":"Marcar como concluído"}
+function vHome(){const A=Object.values(S.res).reduce((s,r)=>s+r.a,0),T=A+Object.values(S.res).reduce((s,r)=>s+r.e,0),p=Math.round(100*doneN()/FLAT.length);
+return`<section class="hero a">${ring(p)}<div><span class="k">Estudos de Português para o ENEM</span><h1>Bora ler o mundo?</h1><p>${doneN()} de ${FLAT.length} assuntos concluídos · ${T?Math.round(100*A/T)+"% de acerto":"nenhuma questão respondida ainda"} · ${favN()} favoritos</p><div class="row"><button class="bt" onclick="startSim(10)">▶ Simulado rápido</button><a class="bt gh" href="#/rv">Revisar erros (${Object.keys(S.wrong).length})</a><a class="bt gh" href="#/fv">⭐ Favoritos</a></div></div></section><div class="srch a" style="--i:2"><input id="sq" type="search" placeholder="Buscar assunto ou módulo (atalho: /)" value="${st.qs}" oninput="st.qs=this.value;hlr()" autocomplete="off"></div><div id="hl">${hl()}</div>`}
+function hl(){const t=nz(st.qs.trim());let h=`<div class="chs">${[["T","Todos"],["A","Alta incidência"],["M","Média"],["B","Baixa"]].map(c=>`<button class="ch${st.f==c[0]?" on":""}" onclick="st.f='${c[0]}';hlr()">${c[1]}</button>`).join("")}</div>`;
+const mods=M.map((m,i)=>({m,i})).filter(({m,i})=>(st.f=="T"||m.l==st.f)&&(!t||nz(m.n+" "+m.d).includes(t)||SUB[i].some(x=>nz(x.n).includes(t))));
+h+=mods.length?`<div class="g">${mods.map(({m,i},k)=>`<div class="cd a" style="--i:${k};--h:${i*24}" onclick="go('m/${i}')"><div class="ci">${IC[i]}</div><span class="bd ${m.l}">${L[m.l]} · ~${m.p}%</span><h3>${m.n}</h3><p>${m.d}</p><div class="ft"><span>${SUB[i].length} assuntos</span><span>${pr(i)}% concluído</span></div>${bar(pr(i))}</div>`).join("")}</div>`:`<p class="mu">Nenhum módulo encontrado.</p>`;
+if(t){const r=uniq(FLAT).filter(x=>nz(x.n).includes(t));h+=`<h2>Assuntos encontrados (${r.length})</h2>`+r.map(row).join("")}return h}
+const hlr=()=>{q("#hl").innerHTML=hl();bars()};
+function vMod(i){if(!M[i])return vHome();const m=M[i],s=ms(i);
+return`<div class="bc a"><a href="#/">Português</a> › ${m.n}</div><div class="mh hu a" style="--h:${i*24}"><div class="ci big">${IC[i]}</div><div><h1>${m.n}</h1><span class="bd ${m.l}">Incidência ${L[m.l]} · ~${m.p}% das questões</span><p>${m.d}</p></div></div><div class="hu a" style="--h:${i*24};--i:1"><div class="ft"><b>${pr(i)}% concluído</b><span>${s.t?`${s.p}% de acerto (${s.a} certas, ${s.e} erradas)`:"sem questões respondidas"}</span></div>${bar(pr(i))}</div><div class="row a" style="--i:2"><button class="bt" onclick="startMod(${i})">▶ Quiz do módulo</button><a class="bt gh" href="#/fc/${i}">🧠 Conceitos</a>${i==5||i==6?'<a class="bt gh" href="#/linha">🗓 Linha do tempo literária</a>':""}</div>${SUB[i].map((x,j)=>row({i,j,n:x.n,l:x.l},j)).join("")}`}
+function qb(n,sel,quiz){const c=C[n];let h=`<p>${c[3]}</p><p><b>${c[4]}</b></p>`+c[5].map((o,k)=>`<button class="op${sel==null?"":k==c[6]?" ok":k==sel?" er":""}"${sel==null?"":" disabled"} onclick="pick(${k})"><b>${"ABCDE"[k]}</b><span>${o}</span></button>`).join("");
+if(sel!=null){const ok=sel==c[6];h+=`<div class="fb ${ok?"":"erb"}"><b>${ok?"🎉 Você acertou!":"😕 Não foi dessa vez."}</b>${ok?"":` A correta é a ${"ABCDE"[c[6]]}.`}<p>${c[7]}</p></div>`;if(quiz)h+=`<div class="row"><button class="bt" onclick="nextQ()">${Q.k+1<Q.list.length?"Próxima questão →":"Ver resultado 🏁"}</button></div>`}return h}
+function pick(n){if(view=="s"){if(st.q!=null)return;const x=SUB[cur.i][cur.j];st.q=n;rec(x.n,n==C[x.n][6]);q("#qb").innerHTML=qb(x.n,n)}
+else if(view=="q"&&Q&&Q.k<Q.list.length){if(Q.sel!=null)return;const nm=Q.list[Q.k].n,ok=n==C[nm][6];Q.sel=n;if(ok)Q.score++;Q.ans[Q.k]={ok};rec(nm,ok);q("#qb").innerHTML=qb(nm,n,1);q("#qs").textContent="✔ "+Q.score}}
+function vSub(i,j){if(!SUB[i]||!SUB[i][j])return vHome();const x=SUB[i][j],c=C[x.n],k=i+"."+j,ix=FLAT.findIndex(f=>f.i==i&&f.j==j),pv=FLAT[ix-1],nx=FLAT[ix+1];
+let h=`<div class="bc a"><a href="#/">Português</a> › <a href="#/m/${i}">${M[i].n}</a> › ${x.n}</div><div class="hd a"><div><h1>${x.n}</h1><span class="bd ${x.l}">Incidência ${L[x.l]}</span></div><button class="fv big${S.fav[k]?" on":""}" aria-label="Favoritar" onclick="fav(${i},${j},this)">★</button></div>`;
+h+=c?`<section class="bx a" style="--i:1"><h2>Resumo</h2><p>${c[0]}</p><div class="fm">${c[1].map(f=>`<code>${f}</code>`).join("")}</div><p class="dc">💡 ${c[2]}</p></section><section class="bx a" style="--i:2"><h2>Questão no estilo ENEM</h2><div id="qb">${qb(x.n,null)}</div></section>`:`<section class="bx"><h2>Conteúdo ainda não incluído</h2><p>Resumo e questão deste assunto não estão nesta versão.</p></section>`;
+return h+`<button class="dn${D[k]?" on":""}" onclick="tg(${i},${j},this)">${D[k]?"✓ Concluído":"Marcar como concluído"}</button><div class="pn">${pv?`<a class="bt gh" href="#/s/${pv.i}/${pv.j}">← ${pv.n}</a>`:"<span></span>"}${nx?`<a class="bt gh" href="#/s/${nx.i}/${nx.j}">${nx.n} →</a>`:"<span></span>"}</div><p class="mu">Atalhos: A–E responde · ← → troca de assunto</p>`}
+function navS(d){const t=FLAT[FLAT.findIndex(f=>f.i==cur.i&&f.j==cur.j)+d];if(t)go(`s/${t.i}/${t.j}`)}
+function vSim(){return`<h1 class="a">📝 Simulado</h1><p class="a mu">Sequência de questões no estilo ENEM, com cronômetro e placar. Escolha o tamanho:</p><div class="g3">${[10,20,30,95].map((n,k)=>`<button class="cd sm a" style="--i:${k}" onclick="startSim(${n})"><b>${n>=95?"Completo":n}</b><span class="mu">${n>=95?"todos os assuntos":"questões"}</span></button>`).join("")}</div><h2 class="a">Quiz por módulo</h2><div class="chs a">${M.map((m,i)=>`<button class="ch" onclick="startMod(${i})">${IC[i]} ${m.n}</button>`).join("")}</div>`}
+function startQuiz(list,title){Q={list,k:0,sel:null,score:0,t0:Date.now(),ans:[],title,saved:0};if(location.hash=="#/q")render();else go("q")}
+const startSim=n=>startQuiz(shuf(uniq(FLAT)).slice(0,n),"Simulado · "+(n>=95?"completo":n+" questões")),startMod=i=>startQuiz(shuf(SUB[i].map((x,j)=>({i,j,n:x.n}))),"Quiz · "+M[i].n);
+function startRev(){const l=uniq(FLAT).filter(x=>S.wrong[x.n]);if(l.length)startQuiz(shuf(l),"Revisão dos erros")}
+const redo=()=>startQuiz(shuf(Q.list.filter((x,k)=>!Q.ans[k].ok)),"Refazendo os erros"),nextQ=()=>{Q.k++;Q.sel=null;render()};
+function vQ(){if(!Q){location.replace("#/sim");return null}if(Q.k>=Q.list.length)return vRes();const it=Q.list[Q.k];
+return`<div class="bc a"><a href="#/sim">← Sair</a> · ${Q.title}</div><div class="qh a"><b>Questão ${Q.k+1} de ${Q.list.length}</b><span id="qs">✔ ${Q.score}</span><span id="qt">⏱ ${fmt(Math.floor((Date.now()-Q.t0)/1000))}</span></div>${bar(100*Q.k/Q.list.length)}<section class="bx a"><span class="bd ${SUB[it.i][it.j].l}">${M[it.i].n}</span><div id="qb">${qb(it.n,null,1)}</div></section><p class="mu">Atalhos: A–E responde · Enter ou → avança</p>`}
+function vRes(){const n=Q.list.length,pc=Math.round(100*Q.score/n),by={};
+if(!Q.saved){Q.saved=1;Q.sec=Math.floor((Date.now()-Q.t0)/1000);S.sims.unshift({d:Date.now(),t:Q.title,s:Q.score,n,sec:Q.sec});S.sims=S.sims.slice(0,15);sv()}
+Q.ans.forEach((a,k)=>{const m=Q.list[k].i,o=by[m]||(by[m]={a:0,t:0});o.t++;if(a.ok)o.a++});const wr=n-Q.score;
+return`<div class="res a">${ring(pc).replace('class="rg"','class="rg big"')}<h1>${pc>=70?"Mandou bem! 🎉":pc>=40?"Bom caminho! 💪":"Vale revisar! 📚"}</h1><p class="mu">${Q.score} de ${n} acertos em ${fmt(Q.sec)} · ${Q.title}</p><div class="row" style="justify-content:center">${wr?`<button class="bt" onclick="redo()">Refazer as ${wr} erradas</button>`:""}<a class="bt gh" href="#/sim">Novo simulado</a><a class="bt gh" href="#/st">Estatísticas</a></div></div><div class="bx a" style="--i:1"><h2>Resultado por módulo</h2>${Object.keys(by).map(m=>`<div class="mr hu" style="--h:${m*24}"><span>${IC[m]} ${M[m].n}</span>${bar(100*by[m].a/by[m].t)}<small>${by[m].a}/${by[m].t}</small></div>`).join("")}</div>`}
+function vFc(s){const sc=s===undefined||s===""?-1:+s;if(!FC||FC.sc!=sc)FC={sc,k:0,f:0,list:uniq(FLAT.filter(x=>sc<0||x.i==sc))};
+return`<h1 class="a">🧠 Conceitos-chave</h1><p class="a mu">Vire os cartões para revisar conceitos, regras e dicas de cada assunto.</p><div class="chs a"><a class="ch${sc<0?" on":""}" href="#/fc">Todos</a>${M.map((m,i)=>`<a class="ch${sc==i?" on":""}" href="#/fc/${i}" title="${m.n}">${IC[i]}</a>`).join("")}</div><div id="fcx" class="a" style="--i:1">${fcHtml()}</div><div class="row fcb a" style="--i:2"><button class="bt gh" onclick="fcGo(-1)">←</button><button class="bt" onclick="flipFc()">Virar</button><button class="bt gh" onclick="fcGo(1)">→</button><button class="bt gh" onclick="fcShuf()">🔀 Embaralhar</button></div><p class="mu" style="text-align:center">Atalhos: ← → navega · Espaço vira o cartão</p>`}
+function fcHtml(){const x=FC.list[FC.k],c=C[x.n];return`<div class="fcnt">${FC.k+1} / ${FC.list.length}</div><div class="fcw"><div class="fcard${FC.f?" flip":""}" onclick="flipFc()"><div class="face"><span class="bd ${x.l}">${M[x.i].n}</span><h2>${x.n}</h2><small class="mu">Toque para ver os conceitos</small></div><div class="face bk2">${c[1].map(f=>`<code>${f}</code>`).join("")}</div></div></div>`}
+const fcGo=d=>{FC.k=(FC.k+d+FC.list.length)%FC.list.length;FC.f=0;q("#fcx").innerHTML=fcHtml()},flipFc=()=>{FC.f^=1;q(".fcard").classList.toggle("flip",!!FC.f)},fcShuf=()=>{FC.list=shuf(FC.list);FC.k=0;FC.f=0;q("#fcx").innerHTML=fcHtml()};
+function vSt(){let A=0,E=0;Object.values(S.res).forEach(r=>{A+=r.a;E+=r.e});const T=A+E,cs=[["✅",doneN()+"/"+FLAT.length,"assuntos concluídos"],["🎯",T?Math.round(100*A/T)+"%":"—","de acerto"],["✔",A,"acertos"],["✘",E,"erros"],["⏱",fmt(S.t),"tempo de estudo"],["📝",S.sims.length,"simulados feitos"]];
+return`<h1 class="a">📊 Estatísticas</h1><div class="g3">${cs.map((c,k)=>`<div class="bx stat a" style="--i:${k}"><span>${c[0]}</span><b>${c[1]}</b><small>${c[2]}</small></div>`).join("")}</div><h2 class="a">Acertos e erros por módulo</h2><div class="bx a">${M.map((m,i)=>{const s=ms(i);return`<div class="mr"><span>${IC[i]} ${m.n}</span><div class="sb"><i class="g1" data-w="${s.t?100*s.a/s.t:0}"></i><i class="e1" data-w="${s.t?100*s.e/s.t:0}"></i></div><small>${s.t?`${s.a} certas · ${s.e} erradas · ${s.p}%`:"—"}</small></div>`}).join("")}</div><h2 class="a">Últimos simulados</h2>${S.sims.length?`<div class="bx a">${S.sims.map(x=>`<div class="mr2"><span>${new Date(x.d).toLocaleDateString("pt-BR")} · ${x.t}</span><b>${x.s}/${x.n} (${Math.round(100*x.s/x.n)}%)</b><small>${fmt(x.sec)}</small></div>`).join("")}</div>`:`<p class="mu">Nenhum simulado ainda. Comece pela aba Simulado.</p>`}<button class="bt gh" onclick="rst()">Zerar estatísticas</button>`}
+function rst(){if(confirm("Zerar acertos, erros, simulados e tempo? Progresso e favoritos continuam salvos.")){S.res={};S.wrong={};S.sims=[];S.t=0;sv();render()}}
+function vRv(){const l=uniq(FLAT).filter(x=>S.wrong[x.n]);return`<h1 class="a">🔁 Revisão de erros</h1>`+(l.length?`<p class="a mu">Questões que você errou na última tentativa. Acertar de novo tira da lista.</p><div class="row a"><button class="bt" onclick="startRev()">▶ Refazer as ${l.length} erradas</button></div>`+l.map(row).join(""):`<div class="bx empty a">🎉<p>Nenhum erro pendente. Responda questões nos assuntos ou faça um simulado.</p><a class="bt" href="#/sim">Fazer simulado</a></div>`)}
+function vFv(){const l=FLAT.filter(x=>S.fav[x.i+"."+x.j]);return`<h1 class="a">⭐ Favoritos</h1>`+(l.length?l.map(row).join(""):`<div class="bx empty a">⭐<p>Toque na estrela de um assunto para guardá-lo aqui.</p><a class="bt" href="#/">Ver assuntos</a></div>`)}
+function vGloss(){let h=`<h1 class="a">📖 Glossário linguístico e literário</h1><p class="a mu">Todos os conceitos-chave, organizados por módulo. Busque e copie.</p><div class="srch a"><input id="gq" type="search" placeholder="Buscar conceito (ex.: coesão, metáfora, tese)" oninput="gf()" autocomplete="off"></div><div id="glx"></div><div class="row"><button class="bt gh" onclick="copyG()">📋 Copiar tudo</button></div>`;
+setTimeout(gf,0);return h}
+function gf(){const el=q("#gq");const t=nz(el?el.value:"");let h="";
+M.forEach((m,i)=>{const items=SUB[i].filter(x=>{const c=C[x.n];if(!c)return false;if(!t)return true;return nz(x.n+" "+c[1].join(" ")).includes(t)});if(!items.length)return;
+h+=`<h2>${IC[i]} ${m.n}</h2><div class="gloss">`+items.map(x=>{const c=C[x.n];return`<div class="gi"><h4>${x.n}</h4><ul>${c[1].map(k=>`<li>${k}</li>`).join("")}</ul></div>`}).join("")+`</div>`});
+q("#glx").innerHTML=h||`<p class="mu">Nada encontrado.</p>`}
+function copyG(){let txt="";M.forEach((m,i)=>{txt+="\n"+m.n+"\n";SUB[i].forEach(x=>{const c=C[x.n];if(!c)return;txt+="• "+x.n+": "+c[1].join(" | ")+"\n"})});navigator.clipboard?.writeText(txt).then(()=>alert("Glossário copiado!"),()=>alert("Não foi possível copiar automaticamente."))}
+function vErr(){const E=[
+["Variação linguística ≠ erro","Uma variedade regional ou social não é erro de português. Erro só existe em relação a uma norma de referência.","Trate variedades como fenômenos sociais; a norma-padrão é instrumento de adequação, não critério de valor humano."],
+["Coesão não garante coerência","Um texto pode ter conectivos perfeitos e ainda ser incoerente, se as ideias se contradizem ou fogem do tema.","Verifique o sentido global, não só a 'costura' linguística."],
+["Tema ≠ assunto ≠ tese","Assunto é o campo geral; tema é o recorte; tese é a opinião defendida em texto argumentativo.","Em questões de interpretação, prefira a alternativa que afirma algo sobre o assunto, não a que apenas o nomeia."],
+["Ironia: dizer o contrário do que se pensa","Se o texto elogia algo que critica, é ironia.","Não leia ironia como afirmação literal; observe o contraste entre o que se diz e o que se sabe."],
+["Barroco ≠ Arcadismo","Barroco (século XVII): conflito, fé × razão, cultismo e conceptismo. Arcadismo (século XVIII): equilíbrio, bucolismo, carpe diem.","Não atribua bucolismo ao Barroco nem conflito religioso ao Arcadismo."],
+["Realismo ≠ Romantismo","Romantismo idealiza; Realismo critica e analisa a sociedade com objetividade.","Machado de Assis é Realismo, não Romantismo; Gonçalves Dias é Romantismo, não Realismo."],
+["Modernismo: 1ª, 2ª e 3ª fases","1ª (1922-30): ruptura, experimentação. 2ª (1930-45): romance de 30, poesia madura. 3ª (1945-60): rigor formal, inovação.","Graciliano Ramos é 2ª fase; Guimarães Rosa, 3ª. Não troque."],
+["Metáfora ≠ comparação ≠ metonímia","Metáfora: sem conectivo, por semelhança. Comparação: com 'como'. Metonímia: por contiguidade.","Procure o 'como'. Se houver, é comparação."],
+["Função poética ≠ função emotiva","Poética enfatiza a forma da mensagem; emotiva, o emissor.","Em um poema podem coexistir várias funções; identifique a que predomina."],
+["Denotação ≠ conotação","Denotação: sentido literal. Conotação: sentido figurado, afetivo.","O contexto decide qual sentido está em jogo."],
+["A resposta está no texto","Não responda com base na sua opinião ou experiência: a alternativa correta se sustenta em marcas do texto.","Sublinhe as pistas antes de escolher."],
+["Tipo textual ≠ gênero textual","Tipo: narração, descrição, dissertação, injunção. Gênero: crônica, receita, editorial.","Receita é gênero injuntivo; crônica é gênero narrativo-dissertativo."],
+["Paráfrase ≠ paródia","Paráfrase mantém o sentido com outras palavras. Paródia subverte o sentido, com crítica ou humor.","Se há inversão crítica, é paródia."],
+["Haver (existir) e fazer (tempo) são impessoais","'Havia pessoas' / 'Faz dez anos' — sem plural.","Não concorde o verbo com o objeto: são impessoais."],
+["Os cinco elementos da proposta de intervenção","Agente, ação, modo, finalidade e detalhamento.","Faltar qualquer um reduz a nota na Competência 5."]
+];
+return`<h1 class="a">⚠️ Erros mais comuns no ENEM</h1><p class="a mu">Pegadinhas clássicas de Português e Literatura. Leia com atenção antes da prova.</p>`+E.map(([t,erro,fix])=>`<div class="err a"><b>${t}</b><p>${erro}</p><div class="fix">✅ ${fix}</div></div>`).join("")}
+function vMapa(){const nodes=[
+{x:40,y:30,t:"Denotação e conotação",href:"#/s/0/6"},
+{x:200,y:30,t:"Interpretação de texto",href:"#/s/0/0"},
+{x:360,y:30,t:"Gêneros textuais",href:"#/s/1/1"},
+{x:520,y:30,t:"Tipos textuais",href:"#/s/1/0"},
+{x:200,y:110,t:"Funções da linguagem",href:"#/s/3/0"},
+{x:360,y:110,t:"Coesão e coerência",href:"#/s/7/0"},
+{x:520,y:110,t:"Operadores argumentativos",href:"#/s/7/4"},
+{x:40,y:190,t:"Figuras de linguagem",href:"#/s/8/0"},
+{x:200,y:190,t:"Intertextualidade",href:"#/s/11/0"},
+{x:360,y:190,t:"Argumentação",href:"#/s/13/0"},
+{x:520,y:190,t:"Redação do ENEM",href:"#/s/15/0"},
+{x:40,y:270,t:"Variação linguística",href:"#/s/2/0"},
+{x:200,y:270,t:"Linguagem não verbal",href:"#/s/12/0"},
+{x:360,y:270,t:"Mídia e tecnologia",href:"#/s/14/0"},
+{x:520,y:270,t:"Literatura",href:"#/s/4/0"}
+];
+const edges=[[0,1],[1,2],[2,3],[1,4],[2,5],[5,6],[4,7],[4,8],[2,8],[8,9],[9,10],[6,10],[11,1],[12,2],[13,12],[4,14],[5,14]];
+let svg=`<svg class="mapSvg" viewBox="0 0 660 320" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Mapa de conexões entre assuntos" style="min-width:680px;width:680px;height:auto">`;
+edges.forEach(([a,b])=>{svg+=`<line x1="${nodes[a].x+60}" y1="${nodes[a].y+16}" x2="${nodes[b].x+60}" y2="${nodes[b].y+16}" stroke="var(--ac)" stroke-width="1.6" stroke-dasharray="4 4" opacity="0.55"/>`});
+nodes.forEach(n=>{svg+=`<a href="${n.href}"><g><rect x="${n.x}" y="${n.y}" rx="10" ry="10" width="120" height="34" fill="var(--cd)" stroke="var(--ac)" stroke-width="1.6"/><text x="${n.x+60}" y="${n.y+22}" text-anchor="middle" font-size="11" font-family="Figtree,sans-serif" fill="var(--tx)">${n.t}</text></g></a>`});
+svg+=`</svg>`;
+return`<h1 class="a">🗺 Mapa de conexões</h1><p class="a mu">Arraste para o lado para ver todos os nós. Clique em cada um para ir ao assunto.</p><div class="mapWrap">${svg}</div><div class="bx a"><h2>Como usar</h2><p>Comece pelos conceitos de base (denotação/conotação) e avance para interpretação, gêneros, funções, coesão, argumentação e redação. Cada etapa fortalece a seguinte.</p></div>`}
+function vLinha(){const evs=[
+["1189","Trovadorismo — cantigas de amor e de amigo"],
+["1418","Humanismo — teatro de Gil Vicente"],
+["1527","Classicismo — Camões e Os Lusíadas"],
+["1601","Barroco — Prosopopeia, de Bento Teixeira"],
+["1768","Arcadismo — Obras Poéticas, de Cláudio Manuel da Costa"],
+["1836","Romantismo — Suspiros Poéticos e Saudades"],
+["1881","Realismo — Memórias Póstumas de Brás Cubas"],
+["1893","Simbolismo — Missal e Broquéis, de Cruz e Sousa"],
+["1922","Modernismo — Semana de Arte Moderna"],
+["1930","2ª fase do Modernismo — romance de 30"],
+["1945","3ª fase — Geração de 45; Pós-Modernismo"]
+];
+let svg=`<svg class="tlSvg" viewBox="0 0 720 260" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Linha do tempo literária">`;
+svg+=`<line x1="30" y1="130" x2="700" y2="130" stroke="var(--ac)" stroke-width="2.5"/>`;
+evs.forEach((e,i)=>{const x=50+i*65,up=i%2==0,y=up?60:200;
+svg+=`<line x1="${x}" y1="130" x2="${x}" y2="${y}" stroke="var(--mu)" stroke-width="1.2"/>`;
+svg+=`<circle cx="${x}" cy="130" r="6" fill="var(--ac)"/>`;
+svg+=`<rect x="${x-30}" y="${y-22}" rx="8" ry="8" width="60" height="44" fill="var(--cd)" stroke="var(--ac)" stroke-width="1.2"/>`;
+svg+=`<text x="${x}" y="${y-6}" text-anchor="middle" font-size="12" font-weight="700" font-family="Figtree,sans-serif" fill="var(--ac)">${e[0]}</text>`;
+svg+=`<text x="${x}" y="${y+10}" text-anchor="middle" font-size="8" font-family="Figtree,sans-serif" fill="var(--tx)">${e[1].split("—")[0].trim()}</text>`});
+svg+=`</svg>`;
+return`<h1 class="a">🗓 Linha do tempo literária</h1><p class="a mu">Principais movimentos da literatura em língua portuguesa, com datas aproximadas e marcos.</p>${svg}<div class="bx a"><h2>Observação</h2><p>As datas marcam marcos aproximados: escolas literárias são processos lentos, com transições. Para o ENEM, associe cada movimento ao seu contexto e às suas características.</p></div>`}
+function render(){const p=location.hash.replace(/^#\/?/,"").split("/"),v=p[0];view=v;st.q=null;let o;
+if(v=="m")o=vMod(+p[1]);else if(v=="s"){cur={i:+p[1],j:+p[2]};o=vSub(cur.i,cur.j)}else if(v=="sim")o=vSim();else if(v=="q")o=vQ();else if(v=="fc")o=vFc(p[1]);else if(v=="st")o=vSt();else if(v=="rv")o=vRv();else if(v=="fv")o=vFv();else if(v=="mapa")o=vMapa();else if(v=="linha")o=vLinha();else if(v=="glossario")o=vGloss();else if(v=="erros")o=vErr();else{view="";o=vHome()}
+if(o==null)return;q("#app").innerHTML=o;bars();const act=["m","s",""].includes(view)?"":view=="q"?"sim":view;document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.dataset.r==act));scrollTo(0,0)}
+function th(){const d=document.documentElement,dark=d.dataset.theme?d.dataset.theme=="dark":matchMedia("(prefers-color-scheme: dark)").matches;S.theme=dark?"light":"dark";d.dataset.theme=S.theme;sv()}
+if(S.theme)document.documentElement.dataset.theme=S.theme;
+const tick=()=>{const e=q("#tm");if(e)e.textContent=(run?"⏸ ":"⏱ ")+fmt(S.t);const t=q("#qt");if(t&&Q&&Q.k<Q.list.length)t.textContent="⏱ "+fmt(Math.floor((Date.now()-Q.t0)/1000))};
+function tmT(){run=!run;tick()}
+setInterval(()=>{if(run){S.t++;if(S.t%5==0)sv()}tick()},1000);
+addEventListener("keydown",e=>{if(/INPUT|SELECT|TEXTAREA/.test(e.target.tagName)){if(e.key=="Escape")e.target.blur();return}if(e.ctrlKey||e.metaKey||e.altKey)return;const k=e.key;
+if(k=="/"){const s=q("#sq");if(s){e.preventDefault();s.focus()}return}
+const oi=k.length==1&&"abcde".includes(k.toLowerCase())?"abcde".indexOf(k.toLowerCase()):"12345".indexOf(k);
+if((view=="s"||view=="q")&&oi>=0&&k.length==1){pick(oi);return}
+if(k=="ArrowRight"){if(view=="s")navS(1);else if(view=="q"&&Q&&Q.sel!=null)nextQ();else if(view=="fc")fcGo(1)}
+else if(k=="ArrowLeft"){if(view=="s")navS(-1);else if(view=="fc")fcGo(-1)}
+else if(k==" "&&view=="fc"){e.preventDefault();flipFc()}
+else if(k=="Enter"&&view=="q"&&Q&&Q.sel!=null)nextQ();
+else if(k=="Escape"&&view!="")go("")});
+addEventListener("pagehide",sv);addEventListener("hashchange",render);render();tick();
+</script></body></html>
